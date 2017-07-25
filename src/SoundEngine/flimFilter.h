@@ -1,0 +1,143 @@
+#pragma once
+#ifndef FLIMFILTER_H
+#define FLIMFILTER_H
+
+#include "snd_err.h"
+
+class SoundCall;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// \enum	FilterType
+/// \ingroup FLIMFILTER
+/// \brief	Values that represent filter types.
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+enum class FilterType
+{
+	HiPass,
+	LoPass,
+	BandPass
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// \class	flimFilter
+///
+/// \brief	A flim filter.
+///\ingroup FLIMFILTER
+/// \author	Jack Campbell
+/// \date	6/1/2017
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+class flimFilter
+{
+private:
+
+	SoundCall* snd;
+
+
+public:
+	flimFilter() = default;
+	flimFilter(SoundCall*);
+	flimFilter& operator=(const flimFilter&) = default;
+	flimFilter(const flimFilter&) = default;
+	~flimFilter() = default;
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// \fn	snd_err flimFilter::setSound(SoundCall* sound)
+	///
+	/// \brief	Sets a sound.
+	///
+	/// \author	Jack Campbell
+	/// \date	6/1/2017
+	///\ingroup FLIMFILTER
+	/// \param [in,out]	sound	If non-null, the sound.
+	///
+	/// \return	A snd_err.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	snd_err setSound(SoundCall* sound) { this->snd = sound;  return snd_err::OK; };
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// \fn	snd_err flimFilter::ActivateFilter(FilterType type);
+	///
+	/// \brief	Activates the filter described by type.
+	///
+	/// \author	Jack Campbell
+	/// \date	6/1/2017
+	///\ingroup FLIMFILTER
+	/// \param	type	The type.
+	///
+	/// \return	A snd_err.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	snd_err ActivateFilter(FilterType type);
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// \fn	snd_err flimFilter::DeactivateFilter(FilterType type);
+	///
+	/// \brief	Deactivate filter.
+	///
+	/// \author	Jack Campbell
+	/// \date	6/1/2017
+	///\ingroup FLIMFILTER
+	/// \param	type	The type.
+	///
+	/// \return	A snd_err.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	snd_err DeactivateFilter(FilterType type);
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// \fn	snd_err flimFilter::SetCutoff(float cutoff);
+	///
+	/// \brief	Sets a cutoff.
+	///
+	/// \author	Jack Campbell
+	/// \date	6/1/2017
+	///\ingroup FLIMFILTER
+	/// \param	cutoff	The cutoff.
+	///
+	/// \return	A snd_err.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	snd_err SetCutoff(float cutoff);
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// \fn	snd_err flimFilter::GetCutoff(float& cutoff);
+	///
+	/// \brief	Gets a cutoff.
+	///
+	/// \author	Jack Campbell
+	/// \date	6/1/2017
+	///\ingroup FLIMFILTER
+	/// \param [in,out]	cutoff	The cutoff.
+	///
+	/// \return	The cutoff.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	snd_err GetCutoff(float& cutoff);
+
+
+private:
+	struct LPF
+	{
+		float LPF_cutoff;
+		float LPF_gain;
+	};
+
+	struct HPF
+	{
+		float HPF_cutoff;
+		float HPF_gain;
+	};
+
+	struct BPF
+	{
+		float BP_q;
+		float BP_center;
+	};
+
+
+};
+
+#endif

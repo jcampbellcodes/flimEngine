@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CollisionManager">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="collisionTestCmds" Type="std::list&lt;_Ty, _Alloc&gt;">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-4.036" Y="-0.162" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="deleteCmds" Type="std::list&lt;_Ty, _Alloc&gt;">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="1.2" Y="-0.447" Height="0.182" Width="1.253" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAQAAAIAACAAAAAAAAAAAQAAAggACAAAQ=</HashCode>
+      <FileName>Flim\CollisionManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="collisionTestCmds" />
+      <Field Name="deleteCmds" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CollidableGroup&lt;C&gt;">
+    <Position X="0.5" Y="4.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAEAEAAAAAAAEAAAABQAgAAABBAAAAYAAkAEAAAAE=</HashCode>
+      <FileName>Flim\CollidableGroup.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="collidables" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Collidable" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAIAIIAAAAAAACAQAAAAAAAAAACAggAAAAAg=</HashCode>
+      <FileName>Flim\Collidable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionRegistrationCommand&lt;C&gt;" Collapsed="true">
+    <Position X="7" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAEAAAAAAAAIAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Flim\CollisionRegistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionDeregistrationCommand&lt;C&gt;" Collapsed="true">
+    <Position X="11" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAgEAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Flim\CollisionDeregistrationCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionTestSelfCommand&lt;C&gt;" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAQAAAAAAEACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Flim\CollisiontestSelfCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionTestPairCommand&lt;C1, C2&gt;" Collapsed="true">
+    <Position X="9.5" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAEAAAQAAAAAAAAAAAAIEAAAAA=</HashCode>
+      <FileName>Flim\CollisionTestPairCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollidableGroupDeleteCommand&lt;C&gt;" Collapsed="true">
+    <Position X="2.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAEAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Flim\CollidableGroupDeleteCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollidableGroupDeleteCmd" Collapsed="true">
+    <Position X="2.5" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAEAAAAAAAAAAAAAAAgAABAAAA=</HashCode>
+      <FileName>Flim\CollidableGroupDelete.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::list&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgEEqECAHBEgEhEAKEIAgISFAwAKJIAoQEkAhAHQgo=</HashCode>
+      <FileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\list</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneRegistrationCommand" Collapsed="true">
+    <Position X="9.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Flim\SceneRegistration.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionTestCommand" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAEAAAAAAAAAAAAAAAgAAACAAA=</HashCode>
+      <FileName>Flim\CollisionTestCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::set&lt;_Kty, _Pr, _Alloc&gt;" Collapsed="true">
+    <Position X="4.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\set</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

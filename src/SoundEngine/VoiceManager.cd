@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="A different voice factory for each active format is created">
+    <Position X="4.583" Y="0.667" Height="0.674" Width="1.7" />
+  </Comment>
+  <Comment CommentText="On sound load, SoundManager tells VoiceManager to check if that sound's format has an associated pool yet creates a new pool if it doesn't exist yet">
+    <Position X="1.986" Y="5.493" Height="0.66" Width="3.165" />
+  </Comment>
+  <Comment CommentText="When a user requests a sound, the sound is initialized with a voice (courtesy of the VoiceManager) that comes with a &quot;CallbackMailbox&quot; -- the sound can submit commands to this mailbox to be processed on the associated callbacks for the voice">
+    <Position X="7.243" Y="4.41" Height="0.847" Width="4.131" />
+  </Comment>
+  <Class Name="VoiceCallback" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABEAAAEQAAAIAAAAAAAAAAAAAEAAAAABAEAAAA=</HashCode>
+      <FileName>SoundEngine\CallbackManager.h</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CallbackMailbox" Collapsed="true">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABABAACQAAAIAAQAAAAAAAAAAGAAAAkBAEAQIA=</HashCode>
+      <FileName>SoundEngine\CallbackManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VoiceFactory">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAEAAAAAAACAAAAIAAAAAAAAAiAAACEgA=</HashCode>
+      <FileName>SoundEngine\VoiceFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VoiceManager">
+    <Position X="2" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEwCAABAAAAAAAAAAAgARIAAQAYAAkAAACAgA=</HashCode>
+      <FileName>SoundEngine\VoiceManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pools" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::list&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="2" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgEEqECAHBEgEhEAKEIAgISFAwAKJIAoQEkAhAHQgo=</HashCode>
+      <FileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\list</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sound">
+    <Position X="5.5" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAEgAAEIAIAAAhBAAAgQAEAggAQAAAAA5AJgAAAgAAA=</HashCode>
+      <FileName>SoundEngine\Sound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundManager">
+    <Position X="5.5" Y="5.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EMRIAhKJAIAUrIAAQAAALggIEgDCAFAASAkwAgJVACA=</HashCode>
+      <FileName>SoundEngine\SoundManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="VoicePool">
+    <Position X="2" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAgAAACAAA=</HashCode>
+      <FileName>SoundEngine\VoiceManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="voices" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="Track">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAEAIABAAAAQgAAAAQAAAAAAAAAAgAABAAAA=</HashCode>
+      <FileName>SoundEngine\VoiceFactory.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="IXAudio2SourceVoice" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACACAAAAAAAAIACAkAAAAAAgQEIAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\JackCampbell\Perforce\engines\keenan2017winter_gam598\student\jcampb44\Flim_Multithreaded\dxJun2010\Include\XAudio2.h</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CMDTYPES" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAgABAAACAAAAAAAAAAAEAAAAAAQAACAAAg=</HashCode>
+      <FileName>SoundEngine\CallbackManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

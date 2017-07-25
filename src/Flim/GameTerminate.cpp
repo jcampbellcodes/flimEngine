@@ -1,0 +1,18 @@
+#include "Flim.h"
+
+// Callback for when the game ends right before the final unloading
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// \fn	void Flim::GameTerminate()
+///
+/// \brief	Game terminate.
+/// 		
+/// \par Use this callback to do any last minute cleanup right before the game ends.
+///
+/// \author	Jack Campbell
+/// \date	3/12/2017
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void Flim::GameTerminate()
+{
+}

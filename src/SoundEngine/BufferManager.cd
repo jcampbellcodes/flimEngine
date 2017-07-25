@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BufferManager">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="activeList" Type="BufferList">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.054" Y="-0.246" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="inactiveList" Type="BufferList">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.075" Y="-0.204" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAgAgARAAAAAAAAAAABAAAAABKAABAYAAkAAAIACA=</HashCode>
+      <FileName>SoundEngine\BufferManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="activeList" />
+      <Field Name="inactiveList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BufferNode">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQQAAABEIAABAAAAAIAAAAAAAAgAAIAAAhwgCIAAGA=</HashCode>
+      <FileName>SoundEngine\BufferNode.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="buffer" />
+      <Field Name="wfx" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BufferList" Collapsed="true">
+    <Position X="3.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAAAAAgAIAAAAAAAAABAAAAAAIAAAAAAAgAAAEAAA=</HashCode>
+      <FileName>SoundEngine\List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="XAUDIO2_BUFFER" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAABBAQAAAAAAAIAABAAAAAAAAAAACCAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\JackCampbell\Perforce\engines\keenan2017winter_gam598\student\jcampb44\Flim_Multithreaded\dxJun2010\Include\XAudio2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="WAVEFORMATEXTENSIBLE" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\JackCampbell\Perforce\engines\keenan2017winter_gam598\student\jcampb44\Flim_Multithreaded\dxJun2010\Include\audiodefs.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

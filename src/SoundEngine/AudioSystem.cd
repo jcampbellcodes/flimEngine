@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Filled out by gameplay programmer">
+    <Position X="0.5" Y="4.111" Height="0.333" Width="2.256" />
+  </Comment>
+  <Comment CommentText="-Loads Scripts&#xD;&#xA;-Creates sound calls">
+    <Position X="0.5" Y="2.708" Height="0.486" Width="1.7" />
+  </Comment>
+  <Comment CommentText="LoadScript&#xD;&#xA;========&gt;&#xD;&#xA;Communicate&#xD;&#xA;to audio&#xD;&#xA;thread&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;SoundCall's&#xD;&#xA;methods&#xD;&#xA;========&gt;&#xD;&#xA;Communicate&#xD;&#xA;to audio&#xD;&#xA;thread&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Two sided&#xD;&#xA;communication&#xD;&#xA;on Unload&#xD;&#xA;&#xD;&#xA;========&gt;&#xD;&#xA;&lt;========">
+    <Position X="5.118" Y="1.5" Height="9.236" Width="1.168" />
+  </Comment>
+  <Comment CommentText="GAME THREAD&#xD;&#xA;">
+    <Position X="2.319" Y="0.59" Height="0.299" Width="1.151" />
+  </Comment>
+  <Comment CommentText="AUDIO THREAD">
+    <Position X="9.118" Y="0.549" Height="0.291" Width="1.193" />
+  </Comment>
+  <Comment CommentText="Holds XAudio2 &quot;global&quot; components and the line of communication to file thread">
+    <Position X="8.042" Y="0.972" Height="0.479" Width="3.825" />
+  </Comment>
+  <Comment CommentText="Container that holds a voice and contains support methods; grabs a buffer when needed">
+    <Position X="17.271" Y="10.625" Height="0.833" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Container that takes in multiple sounds and processes them as a group">
+    <Position X="17.243" Y="9.701" Height="0.653" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Parses script text files and orchestrates file loading as well as dynamic creation of playlist descriptors">
+    <Position X="7.007" Y="5.007" Height="0.84" Width="1.95" />
+  </Comment>
+  <Comment CommentText="Corresponds to instance of a playlist on the audio thread">
+    <Position X="3.451" Y="6.236" Height="0.66" Width="1.596" />
+  </Comment>
+  <Comment CommentText="Fires off a list of initialization commands defined by the script in order to make a corresponding runtime playlist. Pools playlists.">
+    <Position X="9.792" Y="7.972" Height="0.75" Width="2.811" />
+  </Comment>
+  <Comment CommentText="Global timer command queue and access to XAudio2">
+    <Position X="9.938" Y="2.958" Height="0.291" Width="3.526" />
+  </Comment>
+  <Comment CommentText="SCRIPTING">
+    <Position X="7.583" Y="4.528" Height="0.306" Width="0.832" />
+  </Comment>
+  <Comment CommentText="================&gt;&#xD;&#xA;List of associated sounds">
+    <Position X="14.035" Y="10.722" Height="0.507" Width="1.7" />
+  </Comment>
+  <Comment CommentText="List of script's          ||      &#xD;&#xA;commands               ||       &#xD;&#xA;to be fired off           ||     &#xD;&#xA;on the timer queue  ||&#xD;&#xA;on playlist Play()      v           ">
+    <Position X="12.396" Y="11.743" Height="0.986" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Pools playlists&#xD;&#xA;========&gt;">
+    <Position X="11.487" Y="9.028" Height="0.481" Width="1.018" />
+  </Comment>
+  <Comment CommentText="List of&#xD;&#xA;init commands&#xD;&#xA;&lt;=========">
+    <Position X="8.924" Y="9.986" Height="0.647" Width="1.101" />
+  </Comment>
+  <Comment CommentText="INTERNAL&#xD;&#xA;RESOURCE&#xD;&#xA;MANAGEMENT">
+    <Position X="12.139" Y="5.938" Height="0.632" Width="1.068" />
+  </Comment>
+  <Comment CommentText="A different voice factory for each active format is created">
+    <Position X="15.956" Y="5.952" Height="0.674" Width="1.7" />
+  </Comment>
+  <Comment CommentText="On sound load, SoundManager tells VoiceManager to check if that sound's format has an associated pool yet creates a new pool if it doesn't exist yet">
+    <Position X="13.609" Y="7.715" Height="0.66" Width="3.165" />
+  </Comment>
+  <Comment CommentText="When a user requests a sound, the sound is initialized with a voice (courtesy of the VoiceManager) that comes with a &quot;CallbackMailbox&quot; -- the sound can submit commands to this mailbox to be processed on the associated callbacks for the voice">
+    <Position X="18.54" Y="8.5" Height="0.847" Width="4.131" />
+  </Comment>
+  <Comment CommentText="VOICES">
+    <Position X="15.632" Y="3.764" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="CALLBACKS">
+    <Position X="19.66" Y="5.819" Height="0.291" Width="0.874" />
+  </Comment>
+  <Comment CommentText="BUFFERS">
+    <Position X="24.382" Y="3.535" Height="0.291" Width="0.7" />
+  </Comment>
+  <Comment CommentText="AUDIO FILE THREAD">
+    <Position X="30.34" Y="0.938" Height="0.299" Width="1.499" />
+  </Comment>
+  <Comment CommentText="BufferManager::Load creates a node with a nullptr and an ID and sends it to file thread to attach a loaded audio buffer to the node">
+    <Position X="25.396" Y="3.542" Height="0.84" Width="2.478" />
+  </Comment>
+  <Comment CommentText="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Requests file loads&#xD;&#xA;===============&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Attaches loaded buffer to&#xD;&#xA;given buffer node&#xD;&#xA;&lt;===============&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Two sided communication&#xD;&#xA;on Unload&#xD;&#xA;===============&gt;&#xD;&#xA;&lt;===============">
+    <Position X="28.243" Y="1.493" Height="7.868" Width="1.7" />
+  </Comment>
+  <Comment CommentText="AudioFileMain.h&#xD;&#xA;&#xD;&#xA;-Thread's main()&#xD;&#xA;-Support methods for loading">
+    <Position X="30.49" Y="4.557" Height="0.75" Width="2" />
+  </Comment>
+  <Comment CommentText="When a buffer is a requested, if the node's buffer is null, audio thread spins.&#xD;&#xA;&#xD;&#xA;TODO: Take out spinlock, replace with audio side callback mechanism or return error code">
+    <Position X="25.755" Y="7.094" Height="1.802" Width="1.7" />
+  </Comment>
+  <Class Name="SoundEngine">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="pG2ABuff" Type="CircularData">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.304" Y="0.046" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="pA2GBuff" Type="CircularData">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.31" Y="0.02" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIQmwAAIAISQAAAAAhgCCACgAQBAAEAAYAQ1BAAQAAA=</HashCode>
+      <FileName>SoundEngine\SoundEngine.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pG2ABuff" />
+      <Field Name="pA2GBuff" />
+      <Field Name="audioThread" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::thread" Collapsed="true">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAACgAAAAEAAAAIAACQAAQIAAAAAQAgAAAAQAA=</HashCode>
+      <FileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\thread</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircularData" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAEAABCAAAAAAAAAAAECAAACAAAACAAwAIAAAAA=</HashCode>
+      <FileName>SoundEngine\CircularData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundCall">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIhAAUGAARQAkAAAAAAAAQAAAQACEGEqAJzIAQCIgA=</HashCode>
+      <FileName>SoundEngine\SoundCall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PriorityManager">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIQAABACAQAFAgACBAABCAAAAEBAIAAAYABkAAAGIAA=</HashCode>
+      <FileName>SoundEngine\PriorityManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="priorityTable" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SoundManager">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EMRIAhKJAIAUrIAAQAAALggIEgDCAFAASAkwAgJVACA=</HashCode>
+      <FileName>SoundEngine\SoundManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="timeline" />
+      <Field Name="masteringVoice" />
+      <Field Name="xAudio2" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sound" Collapsed="true">
+    <Position X="15.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAAEIAIAAAhBAAAgQAEAggAQAAAAA5AJgAAAgAAA=</HashCode>
+      <FileName>SoundEngine\Sound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Channel" Collapsed="true">
+    <Position X="15.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAAgAAAAIgAAAAAAAAAAAAAAAAAAAAIgAAAAAAA=</HashCode>
+      <FileName>SoundEngine\Channel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timeline" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAEAAgAAACIAAAAAAAAAAAAAABAAAAAAAgAAAAEAA=</HashCode>
+      <FileName>SoundEngine\Timeline.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistManager">
+    <Position X="7.25" Y="6" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CIAAABAEAAAAgAAABAAAAAAAQABABCAAYAAkABAAAAg=</HashCode>
+      <FileName>SoundEngine\PlaylistManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playlistDescriptors" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlaylistFactory">
+    <Position X="10" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQJAAAAAAABAAAAAAAAAAAAAIAAAAAAAAAiAAAAEgA=</HashCode>
+      <FileName>SoundEngine\PlaylistFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::list&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="7.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgEEqECAHBEgEhEAKEIAgISFAwAKJIAoQEkAhAHQgo=</HashCode>
+      <FileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\list</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Playlist">
+    <Position X="12.5" Y="9" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gAAwAACAAAIAIgACAAAgAAAAAAQEAgAMoAJkABAAIgA=</HashCode>
+      <FileName>SoundEngine\Playlist.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="channel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AudioCommand" Collapsed="true">
+    <Position X="12.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAEAAACAAAgAAAAAIEgAAAAAAEiAAAAAAgkAAAAAA=</HashCode>
+      <FileName>SoundEngine\AudioCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistInitializationCommand" Collapsed="true">
+    <Position X="6.75" Y="10" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQEAAABAAAAAAAAAAAgAAgAAAA=</HashCode>
+      <FileName>SoundEngine\PlaylistInitCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VoiceCallback" Collapsed="true">
+    <Position X="18.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABEAAAEQAAAIAAAAAAAAAAAAAEAAAAABAEAAAA=</HashCode>
+      <FileName>SoundEngine\CallbackManager.h</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CallbackMailbox" Collapsed="true">
+    <Position X="18.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABABAACQAAAIAAQAAAAAAAAAAGAAAAkBAEAQIA=</HashCode>
+      <FileName>SoundEngine\CallbackManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VoiceFactory">
+    <Position X="16" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAEAAAAAAACAAAAIAAAAAAAAAiAAACEgA=</HashCode>
+      <FileName>SoundEngine\VoiceFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VoiceManager">
+    <Position X="13.5" Y="6.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEwCAABAAAAAAAAAAAgARIAAQAYAAkAAACAgA=</HashCode>
+      <FileName>SoundEngine\VoiceManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BufferManager">
+    <Position X="22.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="activeList" Type="BufferList">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.054" Y="-0.246" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="inactiveList" Type="BufferList">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.075" Y="-0.204" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAgAgARAAAAAAAAAAABAAAAABKAABAYAAkAAAIACA=</HashCode>
+      <FileName>SoundEngine\BufferManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="activeList" />
+      <Field Name="inactiveList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BufferNode">
+    <Position X="25.75" Y="5.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQQAAABEIAABAAAAAIAAAAAAAAgAAIAAAhwgCIAAGA=</HashCode>
+      <FileName>SoundEngine\BufferNode.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="buffer" />
+      <Field Name="wfx" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BufferList" Collapsed="true">
+    <Position X="25.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAAAAAgAIAAAAAAAAABAAAAAAIAAAAAAAgAAAEAAA=</HashCode>
+      <FileName>SoundEngine\List.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="PlaylistDescriptor" Collapsed="true">
+    <Position X="7.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAABAAAAAEAAAAAAAAAhAAAAAAA=</HashCode>
+      <FileName>SoundEngine\PlaylistManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="factory" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="ThreadCommand" Collapsed="true">
+    <Position X="3.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAICEAAAAAAAAAAAABiAAAABAEAAAAACBAACBgA=</HashCode>
+      <FileName>SoundEngine\ThreadCommands.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VoicePool">
+    <Position X="13.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAgAAACAAA=</HashCode>
+      <FileName>SoundEngine\VoiceManager.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="voices" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="Track" Collapsed="true">
+    <Position X="17.5" Y="4.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAEAIABAAAAQgAAAAQAAAAAAAAAAgAABAAAA=</HashCode>
+      <FileName>SoundEngine\VoiceFactory.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="voice" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="XAUDIO2_BUFFER" Collapsed="true">
+    <Position X="22.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAABBAQAAAAAAAIAABAAAAAAAAAAACCAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\JackCampbell\Perforce\engines\keenan2017winter_gam598\student\jcampb44\Flim_UpdatedGameEngine\dxJun2010\Include\XAudio2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="WAVEFORMATEXTENSIBLE" Collapsed="true">
+    <Position X="22.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\JackCampbell\Perforce\engines\keenan2017winter_gam598\student\jcampb44\Flim_UpdatedGameEngine\dxJun2010\Include\audiodefs.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Interface Name="IXAudio2" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEIIAAAAAALQAAAAACIAAAEAAAgAAAAAAAABAIKAA=</HashCode>
+      <FileName>c:\Users\JackCampbell\Perforce\engines\keenan2017winter_gam598\student\jcampb44\Flim_UpdatedGameEngine\dxJun2010\Include\XAudio2.h</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IXAudio2MasteringVoice" Collapsed="true">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\JackCampbell\Perforce\engines\keenan2017winter_gam598\student\jcampb44\Flim_UpdatedGameEngine\dxJun2010\Include\XAudio2.h</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IXAudio2SourceVoice" Collapsed="true">
+    <Position X="17.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACACAAAAAAAAIACAkAAAAAAgQEIAAAAAAAAAA=</HashCode>
+      <FileName>c:\Users\JackCampbell\Perforce\engines\keenan2017winter_gam598\student\jcampb44\Flim_UpdatedGameEngine\dxJun2010\Include\XAudio2.h</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SoundCallID">
+    <Position X="1" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQwABABAAAAAAAgAAAAgAAAIAAAACIAAAAAAJAAI=</HashCode>
+      <FileName>SoundEngine\SoundCallRegistry.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CMDTYPES" Collapsed="true">
+    <Position X="20" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAgABAAACAAAAAAAAAAAEAAAAAAQAACAAAg=</HashCode>
+      <FileName>SoundEngine\CallbackManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
