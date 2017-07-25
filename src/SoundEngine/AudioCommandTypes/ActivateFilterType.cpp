@@ -1,6 +1,8 @@
 #include "ActivateFilterType.h"
 #include "..\ThreadActivateFilterCommand.h"
+ThreadActivateFilterCommand ActivateFilterType::type = ThreadActivateFilterCommand();
+
 AudioThreadCommand * ActivateFilterType::visit()
 {
-	return new ThreadActivateFilterCommand();
+	return &ActivateFilterType::type;
 }

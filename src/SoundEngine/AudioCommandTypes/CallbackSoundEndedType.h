@@ -4,11 +4,13 @@
 #include "..\AudioThreadCommand.h"
 #include "..\AudioCommandType.h"
 
+class ThreadCallbackSoundEndedCommand;
+
 class CallbackSoundEndedType : public AudioCommandType
 {
 public:
 	AudioThreadCommand* visit() override;
-	static const CallbackSoundEndedType type;
+	static ThreadCallbackSoundEndedCommand type;
 };
 
 #endif

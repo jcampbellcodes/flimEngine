@@ -1,7 +1,7 @@
 #include "CallbackSoundLoadedType.h"
 #include "..\ThreadCallbackSoundLoadedCommand.h"
-
+ThreadCallbackSoundLoadedCommand CallbackSoundLoadedType::type = ThreadCallbackSoundLoadedCommand();
 AudioThreadCommand * CallbackSoundLoadedType::visit()
 {
-	return new ThreadCallbackSoundLoadedCommand();
+	return &CallbackSoundLoadedType::type;
 }

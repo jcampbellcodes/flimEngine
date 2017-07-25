@@ -3,12 +3,12 @@
 
 #include "..\AudioThreadCommand.h"
 #include "..\AudioCommandType.h"
-
+class ThreadCallbackSoundLoadedCommand;
 class CallbackSoundLoadedType : public AudioCommandType
 {
 public:
 	AudioThreadCommand* visit() override;
-	static const CallbackSoundLoadedType type;
+	static ThreadCallbackSoundLoadedCommand type;
 };
 
 #endif

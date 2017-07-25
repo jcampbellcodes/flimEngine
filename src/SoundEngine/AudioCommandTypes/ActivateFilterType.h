@@ -10,7 +10,7 @@ class ActivateFilterType : public AudioCommandType
 {
 public:
 	AudioThreadCommand* visit() override;
-	static const ThreadActivateFilterCommand type;
+	static ThreadActivateFilterCommand type;
 };
 
 #endif

@@ -1,6 +1,9 @@
 #include "CallbackSoundEndedType.h"
 #include "..\ThreadCallbackSoundEndedCommand.h"
+
+ThreadCallbackSoundEndedCommand CallbackSoundEndedType::type = ThreadCallbackSoundEndedCommand();
+
 AudioThreadCommand * CallbackSoundEndedType::visit()
 {
-	return new ThreadCallbackSoundEndedCommand();
+	return &CallbackSoundEndedType::type;
 }
