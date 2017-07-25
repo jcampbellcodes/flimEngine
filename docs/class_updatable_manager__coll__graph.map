@@ -1,0 +1,6 @@
+<map id="UpdatableManager" name="UpdatableManager">
+<area shape="rect" id="node3" href="$class_updatable.html" title="{Updatable\n|&#45; regState\l|+ Updatable()\l+ ~Updatable()\l+ Updatable()\l+ operator=()\l+ Update()\l+ SubmitUpdateRegistration()\l+ SubmitUpdateDeregistration()\l&#45; SceneRegistration()\l&#45; SceneDeregistration()\l}" alt="" coords="321,13,525,207"/>
+<area shape="rect" id="node4" href="$class_updatable_deregistration_command.html" title="{UpdatableDeregistrationCommand\n||+ UpdatableDeregistrationCommand()\l+ ~UpdatableDeregistration\lCommand()\l+ UpdatableDeregistrationCommand()\l+ operator=()\l+ UpdatableDeregistrationCommand()\l+ execute()\l}" alt="" coords="265,277,504,443"/>
+<area shape="rect" id="node6" href="$class_updatable_registration_command.html" title="{UpdatableRegistrationCommand\n||+ UpdatableRegistrationCommand()\l+ ~UpdatableRegistrationCommand()\l+ UpdatableRegistrationCommand()\l+ operator=()\l+ UpdatableRegistrationCommand()\l+ execute()\l}" alt="" coords="5,285,241,435"/>
+<area shape="rect" id="node5" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="113,5,222,215"/>
+</map>

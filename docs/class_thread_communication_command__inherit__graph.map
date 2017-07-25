@@ -1,0 +1,6 @@
+<map id="ThreadCommunicationCommand" name="ThreadCommunicationCommand">
+<area shape="rect" id="node3" href="$class_callback_sound_ended_command.html" title="{CallbackSoundEndedCommand\n|&#45; handle\l&#45; id\l|+ CallbackSoundEndedCommand()\l+ CallbackSoundEndedCommand()\l+ ~CallbackSoundEndedCommand()\l+ CallbackSoundEndedCommand()\l+ operator=()\l+ SetContext()\l+ execute()\l}" alt="" coords="5,454,239,634"/>
+<area shape="rect" id="node4" href="$class_start_playlist_command.html" title="{StartPlaylistCommand\n|&#45; handle\l&#45; id\l&#45; is3D\l|+ StartPlaylistCommand()\l+ StartPlaylistCommand()\l+ ~StartPlaylistCommand()\l+ StartPlaylistCommand()\l+ operator=()\l+ SetContext()\l+ execute()\l}" alt="" coords="263,447,443,641"/>
+<area shape="rect" id="node5" href="$class_terminate_sound_engine_command.html" title="{TerminateSoundEngineCommand\n||+ TerminateSoundEngineCommand()\l+ ~TerminateSoundEngineCommand()\l+ TerminateSoundEngineCommand()\l+ operator=()\l+ execute()\l}" alt="" coords="467,476,710,612"/>
+<area shape="rect" id="node2" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="298,5,407,215"/>
+</map>

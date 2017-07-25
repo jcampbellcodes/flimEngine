@@ -1,0 +1,5 @@
+<map id="ThreadCommand" name="ThreadCommand">
+<area shape="rect" id="node2" href="$class_buffer_node.html" title="{BufferNode\n|&#45; data\l&#45; buffer\l&#45; wfx\l&#45; refCount\l|+ BufferNode()\l+ BufferNode()\l+ ~BufferNode()\l+ BufferNode()\l+ operator=()\l+ GetNext()\l+ SetNext()\l+ GetPrev()\l+ SetPrev()\l+ GetData()\l+ SetData()\l+ InitializeData()\l+ AddRef()\l+ RemoveRef()\l+ InUse()\l}" alt="" coords="5,147,121,473"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="202,271,282,349"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="179,5,305,97"/>
+</map>

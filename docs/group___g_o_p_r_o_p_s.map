@@ -1,0 +1,6 @@
+<map id="Register GameObject Properties" name="Register GameObject Properties">
+<area shape="rect" id="node1" href="$group___r_e_g_a_l_a_r_m_s.html" title="How to register our Frigate for alarms. " alt="" coords="363,5,501,32"/>
+<area shape="rect" id="node2" href="$group___r_e_g_i_n_p_u_t.html" title="How to register GameObjects for single key events. " alt="" coords="369,56,495,83"/>
+<area shape="rect" id="node3" href="$group___r_e_g_c_o_l_l_i_s_i_o_n_s.html" title="How to register GameObjects for collision. " alt="" coords="359,107,505,133"/>
+<area shape="rect" id="node5" href="$group___g_e_t_t_i_n_g_s_t_a_r_t_e_d.html" title="Do a writeup on how to start a scene with a single graphics object. " alt="" coords="5,56,116,83"/>
+</map>

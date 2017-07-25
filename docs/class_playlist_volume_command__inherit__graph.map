@@ -1,0 +1,4 @@
+<map id="PlaylistVolumeCommand" name="PlaylistVolumeCommand">
+<area shape="rect" id="node2" href="$class_audio_command.html" title="{AudioCommand\n|+ deleteIter\l# NUM_REPETITIONS\l# trigger_time\l# lerpFinished\l# playlist_id\l# sound\l|+ AudioCommand()\l+ AudioCommand()\l+ ~AudioCommand()\l+ operator=()\l+ AudioCommand()\l+ AssignPlaylistID()\l+ GetID()\l+ execute()\l+ AttachSound()\l+ clone()\l}" alt="" coords="27,263,180,545"/>
+<area shape="rect" id="node3" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="49,5,158,215"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Scenes" name="Scenes">
+<area shape="rect" id="node1" href="$group___c_a_m_e_r_a.html" title="Individual scene stuff. " alt="" coords="227,5,293,32"/>
+<area shape="rect" id="node3" href="$group___s_c_e_n_e.html" title="Initialize, Terminate, Camera, Collisions. " alt="" coords="5,5,64,32"/>
+</map>

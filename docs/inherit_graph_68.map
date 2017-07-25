@@ -1,0 +1,102 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_alarmable.html" title="Alarmable" alt="" coords="6,411,86,437"/>
+<area shape="rect" id="node2" href="$class_game_object.html" title="GameObject" alt="" coords="199,461,293,488"/>
+<area shape="rect" id="node3" href="$class_bullet.html" title="Bullet" alt="" coords="501,613,556,640"/>
+<area shape="rect" id="node4" href="$class_cottage.html" title="Cottage" alt="" coords="495,664,562,691"/>
+<area shape="rect" id="node5" href="$class_enemy.html" title="Enemy" alt="" coords="497,715,560,741"/>
+<area shape="rect" id="node6" href="$class_enemy_tank.html" title="EnemyTank" alt="" coords="483,765,574,792"/>
+<area shape="rect" id="node7" href="$class_engine_user_sound_test.html" title="EngineUserSoundTest" alt="" coords="453,816,604,843"/>
+<area shape="rect" id="node8" href="$class_explosion.html" title="Explosion" alt="" coords="489,867,568,893"/>
+<area shape="rect" id="node9" href="$classflim_sound.html" title="A flim sound. " alt="" coords="489,5,568,32"/>
+<area shape="rect" id="node10" href="$class_flim_terrain.html" title="A flim terrain. " alt="" coords="485,56,572,83"/>
+<area shape="rect" id="node11" href="$class_frigate.html" title="Frigate" alt="" coords="497,107,560,133"/>
+<area shape="rect" id="node12" href="$class_h_u_d.html" title="HUD" alt="" coords="504,157,553,184"/>
+<area shape="rect" id="node13" href="$class_logo.html" title="Logo" alt="" coords="503,208,554,235"/>
+<area shape="rect" id="node14" href="$class_minimap.html" title="Minimap" alt="" coords="493,259,564,285"/>
+<area shape="rect" id="node15" href="$class_sentry.html" title="Sentry" alt="" coords="499,309,559,336"/>
+<area shape="rect" id="node16" href="$class_sound_test.html" title="SoundTest" alt="" coords="487,360,571,387"/>
+<area shape="rect" id="node17" href="$class_space_plane.html" title="SpacePlane" alt="" coords="483,411,575,437"/>
+<area shape="rect" id="node18" href="$class_tank.html" title="Tank" alt="" coords="503,461,554,488"/>
+<area shape="rect" id="node19" href="$class_tank_world.html" title="TankWorld" alt="" coords="487,512,571,539"/>
+<area shape="rect" id="node20" href="$class_world_plane.html" title="WorldPlane" alt="" coords="484,563,573,589"/>
+<area shape="rect" id="node22" href="$class_collidable_group.html" title="CollidableGroup\&lt; C \&gt;" alt="" coords="173,892,319,919"/>
+<area shape="rect" id="node23" href="$class_collision_volume.html" title="CollisionVolume" alt="" coords="189,943,303,969"/>
+<area shape="rect" id="node30" href="$class_flim_listener.html" title="A flim listener. " alt="" coords="199,993,293,1020"/>
+<area shape="rect" id="node31" href="$class_flim_sprite.html" title="FlimSprite" alt="" coords="205,1044,287,1071"/>
+<area shape="rect" id="node32" href="$class_render_a_a_b_b_command.html" title="A render b sphere command. " alt="" coords="167,1196,325,1223"/>
+<area shape="rect" id="node33" href="$class_render_box_command.html" title="RenderBoxCommand" alt="" coords="173,1247,319,1273"/>
+<area shape="rect" id="node34" href="$class_render_b_sphere_command.html" title="A render b sphere command. " alt="" coords="160,1297,332,1324"/>
+<area shape="rect" id="node35" href="$class_terrain_cell.html" title="TerrainCell" alt="" coords="205,1095,287,1121"/>
+<area shape="rect" id="node36" href="$class_visualizer.html" title="A visualizer. " alt="" coords="207,1145,285,1172"/>
+<area shape="rect" id="node24" href="$class_collision_volume_bounding_box_base.html" title="CollisionVolumeBoundingBoxBase" alt="" coords="417,917,640,944"/>
+<area shape="rect" id="node27" href="$class_collision_volume_b_sphere.html" title="CollisionVolumeBSphere" alt="" coords="446,968,611,995"/>
+<area shape="rect" id="node28" href="$class_collision_volume_line.html" title="CollisionVolumeLine" alt="" coords="459,1019,598,1045"/>
+<area shape="rect" id="node25" href="$class_collision_volume_a_a_b_b.html" title="CollisionVolumeAABB" alt="" coords="723,943,874,969"/>
+<area shape="rect" id="node26" href="$class_collision_volume_o_b_b.html" title="CollisionVolumeOBB" alt="" coords="727,892,870,919"/>
+<area shape="rect" id="node29" href="$class_collision_volume_occlusion_line.html" title="CollisionVolumeOcclusionLine" alt="" coords="700,1019,897,1045"/>
+<area shape="rect" id="node37" href="$class_collidable.html" title="A collidable. " alt="" coords="7,461,85,488"/>
+<area shape="rect" id="node38" href="$class_command.html" title="Command" alt="" coords="5,1829,87,1856"/>
+<area shape="rect" id="node39" href="$class_alarm_deregistration_command.html" title="AlarmDeregistrationCommand" alt="" coords="149,1855,343,1881"/>
+<area shape="rect" id="node40" href="$class_alarm_registration_command.html" title="AlarmRegistrationCommand" alt="" coords="154,1905,338,1932"/>
+<area shape="rect" id="node41" href="$class_audio_command.html" title="AudioCommand" alt="" coords="189,1956,303,1983"/>
+<area shape="rect" id="node65" href="$class_collidable_group_delete_cmd.html" title="CollidableGroupDeleteCmd" alt="" coords="157,2007,335,2033"/>
+<area shape="rect" id="node67" href="$class_collision_test_command.html" title="CollisionTestCommand" alt="" coords="169,2057,323,2084"/>
+<area shape="rect" id="node71" href="$class_collision_update_command.html" title="CollisionUpdateCommand" alt="" coords="161,2108,331,2135"/>
+<area shape="rect" id="node73" href="$class_drawable_deregistration_command.html" title="DrawableDeregistrationCommand" alt="" coords="139,2159,353,2185"/>
+<area shape="rect" id="node74" href="$class_drawable_registration_command.html" title="DrawableRegistrationCommand" alt="" coords="145,2209,347,2236"/>
+<area shape="rect" id="node75" href="$class_game_object_deregistration_command.html" title="GameObjectDeregistration\lCommand" alt="" coords="159,2261,333,2302"/>
+<area shape="rect" id="node76" href="$class_game_object_registration_command.html" title="GameObjectRegistrationCommand" alt="" coords="135,2327,357,2353"/>
+<area shape="rect" id="node77" href="$class_hello_command.html" title="HelloCommand" alt="" coords="191,2377,301,2404"/>
+<area shape="rect" id="node78" href="$class_inputable_deregistration_command.html" title="InputableDeregistrationCommand" alt="" coords="139,2428,353,2455"/>
+<area shape="rect" id="node79" href="$class_inputable_registration_command.html" title="InputableRegistrationCommand" alt="" coords="145,2479,347,2505"/>
+<area shape="rect" id="node80" href="$class_playlist_initialization_command.html" title="PlaylistInitializationCommand" alt="" coords="150,1348,342,1375"/>
+<area shape="rect" id="node84" href="$class_scene_change_command.html" title="Replaces scene update command in SceneManager update and tells scene to change. " alt="" coords="165,1399,327,1425"/>
+<area shape="rect" id="node85" href="$class_scene_command.html" title="SceneCommand" alt="" coords="187,1449,305,1476"/>
+<area shape="rect" id="node86" href="$class_scene_deregistration_command.html" title="A scene registration command. " alt="" coords="147,1500,345,1527"/>
+<area shape="rect" id="node88" href="$class_scene_registration_command.html" title="A scene registration command. " alt="" coords="153,1551,339,1577"/>
+<area shape="rect" id="node90" href="$class_scene_update_command.html" title="Tells scene manager to continue business as usual – switched out with a scene change command later..." alt="" coords="167,1601,325,1628"/>
+<area shape="rect" id="node91" href="$class_thread_communication_command.html" title="ThreadCommunicationCommand" alt="" coords="141,1652,351,1679"/>
+<area shape="rect" id="node95" href="$class_updatable_deregistration_command.html" title="UpdatableDeregistrationCommand" alt="" coords="137,1703,355,1729"/>
+<area shape="rect" id="node96" href="$class_updatable_registration_command.html" title="UpdatableRegistrationCommand" alt="" coords="142,1753,350,1780"/>
+<area shape="rect" id="node97" href="$class_world_command.html" title="WorldCommand" alt="" coords="189,1804,303,1831"/>
+<area shape="rect" id="node42" href="$class_assign_callback_command.html" title="AssignCallbackCommand" alt="" coords="443,2311,614,2337"/>
+<area shape="rect" id="node43" href="$class_callback_command.html" title="CallbackCommand" alt="" coords="463,2361,594,2388"/>
+<area shape="rect" id="node49" href="$class_loop_command.html" title="LoopCommand" alt="" coords="474,2412,583,2439"/>
+<area shape="rect" id="node50" href="$class_mark_for_play_command.html" title="MarkForPlayCommand" alt="" coords="451,2463,606,2489"/>
+<area shape="rect" id="node51" href="$class_mark_for_stop_command.html" title="MarkForStopCommand" alt="" coords="451,1601,607,1628"/>
+<area shape="rect" id="node52" href="$class_pan_command.html" title="PanCommand" alt="" coords="477,1652,581,1679"/>
+<area shape="rect" id="node53" href="$class_pitch_command.html" title="PitchCommand" alt="" coords="473,1703,584,1729"/>
+<area shape="rect" id="node54" href="$class_play_command.html" title="PlayCommand" alt="" coords="475,1753,582,1780"/>
+<area shape="rect" id="node55" href="$class_playlist_loop_command.html" title="PlaylistLoopCommand" alt="" coords="453,1804,605,1831"/>
+<area shape="rect" id="node56" href="$class_playlist_pan_command.html" title="PlaylistPanCommand" alt="" coords="455,1855,602,1881"/>
+<area shape="rect" id="node57" href="$class_playlist_pause_command.html" title="PlaylistPauseCommand" alt="" coords="448,1905,609,1932"/>
+<area shape="rect" id="node58" href="$class_playlist_pitch_command.html" title="PlaylistPitchCommand" alt="" coords="451,1956,606,1983"/>
+<area shape="rect" id="node59" href="$class_playlist_play_command.html" title="PlaylistPlayCommand" alt="" coords="453,2007,604,2033"/>
+<area shape="rect" id="node60" href="$class_playlist_stop_command.html" title="PlaylistStopCommand" alt="" coords="453,2057,604,2084"/>
+<area shape="rect" id="node61" href="$class_playlist_volume_command.html" title="PlaylistVolumeCommand" alt="" coords="445,2108,613,2135"/>
+<area shape="rect" id="node62" href="$class_print_priority_command.html" title="PrintPriorityCommand" alt="" coords="454,2159,603,2185"/>
+<area shape="rect" id="node63" href="$class_sound_call_print_duration.html" title="SoundCallPrintDuration" alt="" coords="451,2209,607,2236"/>
+<area shape="rect" id="node64" href="$class_volume_command.html" title="VolumeCommand" alt="" coords="466,2260,591,2287"/>
+<area shape="rect" id="node44" href="$class_individual_sound_ended.html" title="IndividualSoundEnded" alt="" coords="725,2463,873,2489"/>
+<area shape="rect" id="node45" href="$class_internal_sound_ended.html" title="InternalSoundEnded" alt="" coords="729,2260,868,2287"/>
+<area shape="rect" id="node46" href="$class_print_sound_command.html" title="PrintSoundCommand" alt="" coords="726,2311,871,2337"/>
+<area shape="rect" id="node47" href="$class_ship_grow_command.html" title="ShipGrowCommand" alt="" coords="730,2361,867,2388"/>
+<area shape="rect" id="node48" href="$class_transition_on_end.html" title="TransitionOnEnd" alt="" coords="739,2412,858,2439"/>
+<area shape="rect" id="node66" href="$class_collidable_group_delete_command.html" title="CollidableGroupDeleteCommand\&lt; C \&gt;" alt="" coords="407,2513,650,2540"/>
+<area shape="rect" id="node68" href="$class_collision_test_pair_command.html" title="CollisionTestPairCommand\l\&lt; C1, C2 \&gt;" alt="" coords="439,2666,618,2707"/>
+<area shape="rect" id="node69" href="$class_collision_test_self_command.html" title="CollisionTestSelfCommand\&lt; C \&gt;" alt="" coords="423,2564,634,2591"/>
+<area shape="rect" id="node70" href="$class_collision_test_terrain_command.html" title="CollisionTestTerrainCommand\&lt; C \&gt;" alt="" coords="415,2615,642,2641"/>
+<area shape="rect" id="node72" href="$class_collidable_group_update_command.html" title="CollidableGroupUpdateCommand\&lt; C \&gt;" alt="" coords="405,2732,652,2759"/>
+<area shape="rect" id="node81" href="$class_playlist_add_callback_command.html" title="PlaylistAddCallbackCommand" alt="" coords="430,1247,627,1273"/>
+<area shape="rect" id="node82" href="$class_playlist_add_command.html" title="PlaylistAddCommand" alt="" coords="455,1297,602,1324"/>
+<area shape="rect" id="node83" href="$class_playlist_add_sound_command.html" title="PlaylistAddSoundCommand" alt="" coords="437,1196,621,1223"/>
+<area shape="rect" id="node87" href="$class_collision_deregistration_command.html" title="CollisionDeregistrationCommand\&lt; C \&gt;" alt="" coords="407,1348,650,1375"/>
+<area shape="rect" id="node89" href="$class_collision_registration_command.html" title="CollisionRegistrationCommand\&lt; C \&gt;" alt="" coords="413,1399,645,1425"/>
+<area shape="rect" id="node92" href="$class_callback_sound_ended_command.html" title="CallbackSoundEndedCommand" alt="" coords="426,1500,631,1527"/>
+<area shape="rect" id="node93" href="$class_start_playlist_command.html" title="StartPlaylistCommand" alt="" coords="453,1551,605,1577"/>
+<area shape="rect" id="node94" href="$class_terminate_sound_engine_command.html" title="TerminateSoundEngineCommand" alt="" coords="421,1449,636,1476"/>
+<area shape="rect" id="node98" href="$class_drawable.html" title="Drawable" alt="" coords="9,512,83,539"/>
+<area shape="rect" id="node99" href="$class_inputable.html" title="Inputable" alt="" coords="9,360,83,387"/>
+<area shape="rect" id="node100" href="$class_updatable.html" title="Updatable" alt="" coords="6,563,86,589"/>
+<area shape="rect" id="node101" href="$class_tester.html" title="Tester" alt="" coords="217,563,275,589"/>
+</map>

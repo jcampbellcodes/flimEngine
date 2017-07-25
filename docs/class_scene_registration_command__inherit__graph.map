@@ -1,0 +1,4 @@
+<map id="SceneRegistrationCommand" name="SceneRegistrationCommand">
+<area shape="rect" id="node3" href="$class_collision_registration_command.html" title="{CollisionRegistrationCommand\&lt; C \&gt;\n|&#45; collidable\l|+ CollisionRegistrationCommand()\l+ CollisionRegistrationCommand()\l+ CollisionRegistrationCommand()\l+ operator=()\l+ ~CollisionRegistrationCommand()\l+ execute()\l}" alt="" coords="5,520,237,671"/>
+<area shape="rect" id="node2" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="67,5,176,215"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Alarmable" name="Alarmable">
+<area shape="rect" id="node3" href="$class_alarm_registration_command.html" title="{AlarmRegistrationCommand\n|&#45; id\l&#45; t\l|+ AlarmRegistrationCommand()\l+ ~AlarmRegistrationCommand()\l+ AlarmRegistrationCommand()\l+ operator=()\l+ AlarmRegistrationCommand()\l+ execute()\l}" alt="" coords="595,336,807,501"/>
+<area shape="rect" id="node6" href="$class_alarm_deregistration_command.html" title="{AlarmDeregistrationCommand\n|&#45; id\l|+ AlarmDeregistrationCommand()\l+ ~AlarmDeregistrationCommand()\l+ AlarmDeregistrationCommand()\l+ operator=()\l+ AlarmDeregistrationCommand()\l+ execute()\l}" alt="" coords="104,343,327,494"/>
+<area shape="rect" id="node2" href="$struct_alarmable_1_1_registration_data.html" title="{Alarmable::RegistrationData\n|+ regState\l+ startTime\l|}" alt="" coords="273,564,457,656"/>
+<area shape="rect" id="node4" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="415,35,525,244"/>
+</map>

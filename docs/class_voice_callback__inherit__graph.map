@@ -1,0 +1,3 @@
+<map id="VoiceCallback" name="VoiceCallback">
+<area shape="rect" id="node3" href="$class_callback_mailbox.html" title="{CallbackMailbox\n|&#45; NUM_VALID_CALLBACK\l_TYPES\l&#45; callbackBrokers\l|+ CallbackMailbox()\l+ ~CallbackMailbox()\l+ operator=()\l+ CallbackMailbox()\l+ SubmitCallback()\l+ GetCallbacks()\l+ Terminate()\l&#45; OnStreamEnd()\l&#45; OnVoiceProcessingPassEnd()\l&#45; OnVoiceProcessingPassStart()\l&#45; OnBufferEnd()\l&#45; OnBufferStart()\l&#45; OnLoopEnd()\l&#45; OnVoiceError()\l}" alt="" coords="7,373,218,671"/>
+</map>

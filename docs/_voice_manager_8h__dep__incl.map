@@ -1,0 +1,26 @@
+<map id="VoiceManager.h" name="VoiceManager.h">
+<area shape="rect" id="node2" href="$_audio_file_main_8cpp.html" title="AudioFileMain.cpp" alt="" coords="1542,80,1671,107"/>
+<area shape="rect" id="node3" href="$_sound_manager_8h.html" title="SoundManager.h" alt="" coords="1747,80,1867,107"/>
+<area shape="rect" id="node5" href="$_buffer_manager_8cpp.html" title="BufferManager.cpp" alt="" coords="5,155,136,181"/>
+<area shape="rect" id="node18" href="$_sound_8cpp.html" title="Sound.cpp" alt="" coords="3050,155,3134,181"/>
+<area shape="rect" id="node20" href="$_sound_manager_8cpp.html" title="SoundManager.cpp" alt="" coords="3158,155,3293,181"/>
+<area shape="rect" id="node23" href="$_voice_factory_8cpp.html" title="VoiceFactory.cpp" alt="" coords="3317,155,3441,181"/>
+<area shape="rect" id="node25" href="$_voice_manager_8cpp.html" title="VoiceManager.cpp" alt="" coords="2636,80,2767,107"/>
+<area shape="rect" id="node4" href="$_audio_main_8cpp.html" title="AudioMain.cpp" alt="" coords="1086,155,1194,181"/>
+<area shape="rect" id="node6" href="$_channel_8cpp.html" title="Channel.cpp" alt="" coords="1218,155,1313,181"/>
+<area shape="rect" id="node7" href="$_flim_listener_8cpp.html" title="FlimListener.cpp" alt="" coords="1337,155,1455,181"/>
+<area shape="rect" id="node8" href="$_pan_cmd_8cpp.html" title="PanCmd.cpp" alt="" coords="1479,155,1577,181"/>
+<area shape="rect" id="node9" href="$_pitch_command_8cpp.html" title="PitchCommand.cpp" alt="" coords="1601,155,1737,181"/>
+<area shape="rect" id="node10" href="$_playlist_8cpp.html" title="Playlist.cpp" alt="" coords="1761,155,1852,181"/>
+<area shape="rect" id="node11" href="$_playlist_add_sound_command_8cpp.html" title="PlaylistAddSoundCommand.cpp" alt="" coords="1877,155,2086,181"/>
+<area shape="rect" id="node12" href="$_playlist_factory_8cpp.html" title="PlaylistFactory.cpp" alt="" coords="2110,155,2245,181"/>
+<area shape="rect" id="node13" href="$_playlist_manager_8cpp.html" title="PlaylistManager.cpp" alt="" coords="2269,155,2409,181"/>
+<area shape="rect" id="node14" href="$_playlist_pan_command_8cpp.html" title="PlaylistPanCommand.cpp" alt="" coords="2433,155,2605,181"/>
+<area shape="rect" id="node15" href="$_playlist_pitch_command_8cpp.html" title="PlaylistPitchCommand.cpp" alt="" coords="2629,155,2808,181"/>
+<area shape="rect" id="node16" href="$_playlist_volume_command_8cpp.html" title="PlaylistVolumeCommand.cpp" alt="" coords="2833,155,3026,181"/>
+<area shape="rect" id="node17" href="$_snd_executioner_8cpp.html" title="SndExecutioner.cpp" alt="" coords="160,155,299,181"/>
+<area shape="rect" id="node19" href="$_sound_engine_8cpp.html" title="SoundEngine.cpp" alt="" coords="323,155,447,181"/>
+<area shape="rect" id="node21" href="$_sound_manager3_d_8cpp.html" title="SoundManager3D.cpp" alt="" coords="471,155,622,181"/>
+<area shape="rect" id="node22" href="$_terminate_sound_engine_command_8cpp.html" title="TerminateSoundEngineCommand.cpp" alt="" coords="647,155,887,181"/>
+<area shape="rect" id="node24" href="$_volume_command_8cpp.html" title="VolumeCommand.cpp" alt="" coords="911,155,1062,181"/>
+</map>

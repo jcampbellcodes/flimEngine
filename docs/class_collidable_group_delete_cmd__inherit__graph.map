@@ -1,0 +1,4 @@
+<map id="CollidableGroupDeleteCmd" name="CollidableGroupDeleteCmd">
+<area shape="rect" id="node3" href="$class_collidable_group_delete_command.html" title="{CollidableGroupDeleteCommand\&lt; C \&gt;\n||+ CollidableGroupDeleteCommand()\l+ ~CollidableGroupDeleteCommand()\l+ execute()\l}" alt="" coords="5,447,248,553"/>
+<area shape="rect" id="node2" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="72,5,181,215"/>
+</map>

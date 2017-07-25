@@ -1,0 +1,8 @@
+<map id="SoundCall.h" name="SoundCall.h">
+<area shape="rect" id="node2" href="$_handle_manager_8h.html" title="HandleManager.h" alt="" coords="5,80,128,107"/>
+<area shape="rect" id="node3" href="$snd__err_8h.html" title="snd_err.h" alt="" coords="78,155,154,181"/>
+<area shape="rect" id="node4" href="$_handle_8h.html" title="Handle.h" alt="" coords="203,80,277,107"/>
+<area shape="rect" id="node5" href="$_sound_call_registry_8h.html" title="SoundCallRegistry.h" alt="" coords="301,80,441,107"/>
+<area shape="rect" id="node6" href="$_snd_executioner_8h.html" title="SndExecutioner.h" alt="" coords="465,80,591,107"/>
+<area shape="rect" id="node8" href="$_sound_engine_2_command_8h.html" title="Command.h" alt="" coords="566,155,658,181"/>
+</map>

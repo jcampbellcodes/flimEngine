@@ -1,0 +1,7 @@
+<map id="GameObject" name="GameObject">
+<area shape="rect" id="node1" href="$group___b_a_s_i_c_s.html" title="GameObjects have certain properties that can be registered for callbacks, such as input..." alt="" coords="263,5,381,32"/>
+<area shape="rect" id="node2" href="$group___a_l_a_r_m_e_v_e_n_t_s.html" title="Registering for alarms, setting up alarm callbacks. " alt="" coords="273,56,371,83"/>
+<area shape="rect" id="node3" href="$group___c_o_l_l_i_s_i_o_n_s.html" title="Registering for collision, uing the callbacks. " alt="" coords="265,107,379,133"/>
+<area shape="rect" id="node5" href="$group___i_n_p_u_t_e_v_e_n_t_s.html" title="Registering for keys, demos for keycallbacks. " alt="" coords="275,157,369,184"/>
+<area shape="rect" id="node6" href="$group___f_l_i_m___a_p_i.html" title="The is the interface to be used for nearly all flim tasks. " alt="" coords="5,81,72,108"/>
+</map>

@@ -1,0 +1,29 @@
+<map id="Frigate.h" name="Frigate.h">
+<area shape="rect" id="node2" href="$_cottage_8h.html" title="Cottage.h" alt="" coords="933,80,1011,107"/>
+<area shape="rect" id="node5" href="$_enemy_8cpp.html" title="Enemy.cpp" alt="" coords="5,229,93,256"/>
+<area shape="rect" id="node12" href="$_sentry_8cpp.html" title="Sentry.cpp" alt="" coords="1072,229,1157,256"/>
+<area shape="rect" id="node16" href="$_scene_demo_8h.html" title="SceneDemo.h" alt="" coords="1620,155,1724,181"/>
+<area shape="rect" id="node23" href="$_occlusion_scene_8h.html" title="OcclusionScene.h" alt="" coords="1237,155,1365,181"/>
+<area shape="rect" id="node24" href="$_frigate_8cpp.html" title="Frigate.cpp" alt="" coords="657,155,743,181"/>
+<area shape="rect" id="node25" href="$_engine_user_sound_test_8h.html" title="EngineUserSoundTest.h" alt="" coords="1253,80,1416,107"/>
+<area shape="rect" id="node26" href="$_scene_test_8h.html" title="SceneTest.h" alt="" coords="1777,155,1871,181"/>
+<area shape="rect" id="node27" href="$_frigate_factory_8cpp.html" title="FrigateFactory.cpp" alt="" coords="1491,80,1621,107"/>
+<area shape="rect" id="node28" href="$_ship_grow_command_8cpp.html" title="ShipGrowCommand.cpp" alt="" coords="1645,80,1808,107"/>
+<area shape="rect" id="node3" href="$_cottage_8cpp.html" title="Cottage.cpp" alt="" coords="118,229,210,256"/>
+<area shape="rect" id="node4" href="$flim_sound_8h.html" title="flimSound.h" alt="" coords="819,155,909,181"/>
+<area shape="rect" id="node6" href="$_explosion_8cpp.html" title="Explosion.cpp" alt="" coords="944,229,1048,256"/>
+<area shape="rect" id="node7" href="$_occlusion_scene_8cpp.html" title="OcclusionScene.cpp" alt="" coords="1315,229,1458,256"/>
+<area shape="rect" id="node8" href="$_sound_test_8cpp.html" title="SoundTest.cpp" alt="" coords="1181,229,1291,256"/>
+<area shape="rect" id="node9" href="$_intro_scene_8cpp.html" title="IntroScene.cpp" alt="" coords="235,229,344,256"/>
+<area shape="rect" id="node10" href="$_level2_8cpp.html" title="Level2.cpp" alt="" coords="368,229,451,256"/>
+<area shape="rect" id="node11" href="$_level3_8cpp.html" title="Level3.cpp" alt="" coords="475,229,557,256"/>
+<area shape="rect" id="node13" href="$flim_sound_8cpp.html" title="flimSound.cpp" alt="" coords="581,229,685,256"/>
+<area shape="rect" id="node14" href="$_tank_8cpp.html" title="Tank.cpp" alt="" coords="709,229,784,256"/>
+<area shape="rect" id="node15" href="$_tank_scene_8cpp.html" title="TankScene.cpp" alt="" coords="808,229,920,256"/>
+<area shape="rect" id="node17" href="$_load_resources_8cpp.html" title="LoadResources.cpp" alt="" coords="1755,229,1893,256"/>
+<area shape="rect" id="node18" href="$_scene_null_8cpp.html" title="SceneNull.cpp" alt="" coords="1483,229,1589,256"/>
+<area shape="rect" id="node19" href="$_scene_demo_8cpp.html" title="SceneDemo.cpp" alt="" coords="2190,229,2309,256"/>
+<area shape="rect" id="node20" href="$_scene_test_8cpp.html" title="SceneTest.cpp" alt="" coords="2056,229,2165,256"/>
+<area shape="rect" id="node21" href="$_space_plane_8cpp.html" title="SpacePlane.cpp" alt="" coords="1613,229,1731,256"/>
+<area shape="rect" id="node22" href="$_world_plane_8cpp.html" title="WorldPlane.cpp" alt="" coords="1917,229,2032,256"/>
+</map>

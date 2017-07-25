@@ -1,0 +1,5 @@
+<map id="DrawableRegistrationCommand" name="DrawableRegistrationCommand">
+<area shape="rect" id="node3" href="$class_drawable.html" title="{Drawable\n|&#45; regState\l|+ Drawable()\l+ ~Drawable()\l+ Drawable()\l+ operator=()\l+ Draw()\l+ Draw2D()\l+ SubmitDrawRegistration()\l+ SubmitDrawDeregistration()\l+ GetDeletionIterator()\l+ SetDeletionIterator()\l&#45; SceneRegistration()\l&#45; SceneDeregistration()\l}" alt="" coords="113,477,305,716"/>
+<area shape="rect" id="node2" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="304,5,413,215"/>
+<area shape="rect" id="node4" href="$class_drawable_deregistration_command.html" title="{DrawableDeregistrationCommand\n||+ DrawableDeregistrationCommand()\l+ ~DrawableDeregistrationCommand()\l+ DrawableDeregistrationCommand()\l+ operator=()\l+ DrawableDeregistrationCommand()\l+ execute()\l}" alt="" coords="228,779,471,929"/>
+</map>

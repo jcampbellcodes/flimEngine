@@ -1,0 +1,6 @@
+<map id="CollisionManager" name="CollisionManager">
+<area shape="rect" id="node3" href="$class_collidable_group_delete_cmd.html" title="{CollidableGroupDeleteCmd\n||+ CollidableGroupDeleteCmd()\l+ ~CollidableGroupDeleteCmd()\l+ operator=()\l+ CollidableGroupDeleteCmd()\l+ execute()\l}" alt="" coords="5,264,211,400"/>
+<area shape="rect" id="node4" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="280,5,389,215"/>
+<area shape="rect" id="node6" href="$class_collision_update_command.html" title="{CollisionUpdateCommand\n||+ CollisionUpdateCommand()\l+ ~CollisionUpdateCommand()\l+ operator=()\l+ CollisionUpdateCommand()\l+ execute()\l}" alt="" coords="235,264,434,400"/>
+<area shape="rect" id="node8" href="$class_collision_test_command.html" title="{CollisionTestCommand\n||+ CollisionTestCommand()\l+ ~CollisionTestCommand()\l+ operator=()\l+ CollisionTestCommand()\l+ execute()\l}" alt="" coords="458,264,641,400"/>
+</map>

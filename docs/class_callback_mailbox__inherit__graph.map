@@ -1,0 +1,3 @@
+<map id="CallbackMailbox" name="CallbackMailbox">
+<area shape="rect" id="node2" href="$class_voice_callback.html" title="{VoiceCallback\n||+ VoiceCallback()\l+ ~VoiceCallback()\l+ OnStreamEnd()\l+ OnVoiceProcessingPassEnd()\l+ OnVoiceProcessingPassStart()\l+ OnBufferEnd()\l+ OnBufferStart()\l+ OnLoopEnd()\l+ OnVoiceError()\l}" alt="" coords="5,131,220,325"/>
+</map>

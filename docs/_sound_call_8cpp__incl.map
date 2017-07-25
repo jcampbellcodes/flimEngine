@@ -1,0 +1,28 @@
+<map id="SoundCall.cpp" name="SoundCall.cpp">
+<area shape="rect" id="node3" href="$_circular_data_8h.html" title="CircularData.h" alt="" coords="601,155,705,181"/>
+<area shape="rect" id="node12" href="$_start_playlist_command_8h.html" title="StartPlaylistCommand.h" alt="" coords="118,304,281,331"/>
+<area shape="rect" id="node23" href="$_sound_engine_8h.html" title="SoundEngine.h" alt="" coords="1344,80,1455,107"/>
+<area shape="rect" id="node25" href="$_sound_call_8h.html" title="SoundCall.h" alt="" coords="1266,229,1358,256"/>
+<area shape="rect" id="node31" href="$_hash_this_8h.html" title="HashThis.h" alt="" coords="2108,80,2195,107"/>
+<area shape="rect" id="node32" href="$_priority_manager_8h.html" title="PriorityManager.h" alt="" coords="1719,155,1843,181"/>
+<area shape="rect" id="node34" href="$_sound_call_print_duration_command_8h.html" title="SoundCallPrintDurationCommand.h" alt="" coords="1492,229,1718,256"/>
+<area shape="rect" id="node35" href="$_mark_for_stop_command_8h.html" title="MarkForStopCommand.h" alt="" coords="2008,155,2175,181"/>
+<area shape="rect" id="node4" href="$_circular_index_8h.html" title="CircularIndex.h" alt="" coords="382,229,490,256"/>
+<area shape="rect" id="node5" href="$_sound_call_registry_8h.html" title="SoundCallRegistry.h" alt="" coords="592,453,732,480"/>
+<area shape="rect" id="node6" href="$_thread_commands_8h.html" title="ThreadCommands.h" alt="" coords="645,229,784,256"/>
+<area shape="rect" id="node7" href="$_thread_communication_command_8h.html" title="ThreadCommunicationCommand.h" alt="" coords="353,379,574,405"/>
+<area shape="rect" id="node14" href="$_callback_sound_ended_command_8h.html" title="CallbackSoundEndedCommand.h" alt="" coords="606,304,822,331"/>
+<area shape="rect" id="node15" href="$_terminate_sound_engine_command_8h.html" title="TerminateSoundEngineCommand.h" alt="" coords="356,304,582,331"/>
+<area shape="rect" id="node16" href="$_buffer_node_8h.html" title="BufferNode.h" alt="" coords="1054,304,1150,331"/>
+<area shape="rect" id="node20" href="$flim_filter_8h.html" title="flimFilter.h" alt="" coords="948,304,1030,331"/>
+<area shape="rect" id="node8" href="$_sound_engine_2_command_8h.html" title="Command.h" alt="" coords="914,453,1006,480"/>
+<area shape="rect" id="node11" href="$_trace_8h.html" title="Trace\\Trace.h" alt="" coords="313,453,414,480"/>
+<area shape="rect" id="node13" href="$snd__err_8h.html" title="snd_err.h" alt="" coords="1140,379,1216,405"/>
+<area shape="rect" id="node17" href="$_auto_x_a2_include_8h.html" title="AutoXA2Include.h" alt="" coords="1472,379,1596,405"/>
+<area shape="rect" id="node18" href="$vcsversion_8h.html" title="../vcsversion.h" alt="" coords="1513,453,1617,480"/>
+<area shape="rect" id="node24" href="$_audio_command_8h.html" title="AudioCommand.h" alt="" coords="1844,304,1969,331"/>
+<area shape="rect" id="node26" href="$_handle_manager_8h.html" title="HandleManager.h" alt="" coords="1225,304,1348,331"/>
+<area shape="rect" id="node27" href="$_handle_8h.html" title="Handle.h" alt="" coords="1423,304,1496,331"/>
+<area shape="rect" id="node28" href="$_snd_executioner_8h.html" title="SndExecutioner.h" alt="" coords="1292,379,1417,405"/>
+<area shape="rect" id="node33" href="$_print_priority_command_8h.html" title="PrintPriorityCommand.h" alt="" coords="1844,229,2004,256"/>
+</map>

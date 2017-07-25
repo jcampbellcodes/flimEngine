@@ -1,0 +1,6 @@
+<map id="AlarmDeregistrationCommand" name="AlarmDeregistrationCommand">
+<area shape="rect" id="node4" href="$struct_alarmable_1_1_registration_data.html" title="{Alarmable::RegistrationData\n|+ regState\l+ startTime\l|}" alt="" coords="242,477,426,569"/>
+<area shape="rect" id="node2" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="349,5,458,215"/>
+<area shape="rect" id="node5" href="$class_alarm_registration_command.html" title="{AlarmRegistrationCommand\n|&#45; id\l&#45; t\l|+ AlarmRegistrationCommand()\l+ ~AlarmRegistrationCommand()\l+ AlarmRegistrationCommand()\l+ operator=()\l+ AlarmRegistrationCommand()\l+ execute()\l}" alt="" coords="253,963,465,1128"/>
+<area shape="rect" id="node3" href="$class_alarmable.html" title="{Alarmable\n||+ Alarmable()\l+ operator=()\l+ ~Alarmable()\l+ Alarmable()\l+ SubmitAlarmDeregistration()\l+ SubmitAlarmRegistration()\l+ Alarm0()\l+ Alarm1()\l+ Alarm2()\l+ TimeLeft()\land 7 more...\l&#45; TriggerAlarm()\l&#45; AlarmDeregistration()\l&#45; AlarmRegistration()\l}" alt="" coords="114,632,311,900"/>
+</map>

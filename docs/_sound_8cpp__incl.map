@@ -1,0 +1,36 @@
+<map id="Sound.cpp" name="Sound.cpp">
+<area shape="rect" id="node2" href="$_sound_8h.html" title="Sound.h" alt="" coords="1315,155,1386,181"/>
+<area shape="rect" id="node20" href="$_sound_manager_8h.html" title="SoundManager.h" alt="" coords="1627,80,1747,107"/>
+<area shape="rect" id="node24" href="$_voice_manager_8h.html" title="VoiceManager.h" alt="" coords="811,155,927,181"/>
+<area shape="rect" id="node44" href="$_buffer_manager_8h.html" title="BufferManager.h" alt="" coords="638,155,754,181"/>
+<area shape="rect" id="node45" href="$_callback_command_8h.html" title="CallbackCommand.h" alt="" coords="329,229,471,256"/>
+<area shape="rect" id="node47" href="$_track_8h.html" title="Track.h" alt="" coords="1822,80,1887,107"/>
+<area shape="rect" id="node48" href="$_playlist_8h.html" title="Playlist.h" alt="" coords="1675,304,1751,331"/>
+<area shape="rect" id="node49" href="$_sound_manager3_d_8h.html" title="SoundManager3D.h" alt="" coords="2364,155,2500,181"/>
+<area shape="rect" id="node50" href="$_individual_sound_ended_8h.html" title="IndividualSoundEnded.h" alt="" coords="203,80,362,107"/>
+<area shape="rect" id="node3" href="$snd__err_8h.html" title="snd_err.h" alt="" coords="1866,453,1942,480"/>
+<area shape="rect" id="node5" href="$_handle_8h.html" title="Handle.h" alt="" coords="1665,229,1738,256"/>
+<area shape="rect" id="node6" href="$_handle_manager_8h.html" title="HandleManager.h" alt="" coords="1899,229,2021,256"/>
+<area shape="rect" id="node7" href="$_voice_factory_8h.html" title="VoiceFactory.h" alt="" coords="1174,229,1285,256"/>
+<area shape="rect" id="node8" href="$_auto_x_a2_include_8h.html" title="AutoXA2Include.h" alt="" coords="669,453,793,480"/>
+<area shape="rect" id="node11" href="$_callback_manager_8h.html" title="CallbackManager.h" alt="" coords="912,304,1045,331"/>
+<area shape="rect" id="node9" href="$vcsversion_8h.html" title="../vcsversion.h" alt="" coords="621,528,725,555"/>
+<area shape="rect" id="node13" href="$_snd_executioner_8h.html" title="SndExecutioner.h" alt="" coords="869,379,995,405"/>
+<area shape="rect" id="node22" href="$_sound_list_8h.html" title="SoundList.h" alt="" coords="1941,304,2032,331"/>
+<area shape="rect" id="node28" href="$_channel_8h.html" title="Channel.h" alt="" coords="1909,155,1989,181"/>
+<area shape="rect" id="node32" href="$_timeline_8h.html" title="Timeline.h" alt="" coords="1467,304,1549,331"/>
+<area shape="rect" id="node34" href="$_circular_data_8h.html" title="CircularData.h" alt="" coords="2621,229,2725,256"/>
+<area shape="rect" id="node37" href="$_thread_commands_8h.html" title="ThreadCommands.h" alt="" coords="2773,304,2912,331"/>
+<area shape="rect" id="node23" href="$_sound_node_8h.html" title="SoundNode.h" alt="" coords="1942,379,2042,405"/>
+<area shape="rect" id="node25" href="$_manager_8h.html" title="Manager.h" alt="" coords="699,229,781,256"/>
+<area shape="rect" id="node26" href="$_list_8h.html" title="List.h" alt="" coords="681,304,735,331"/>
+<area shape="rect" id="node27" href="$_buffer_node_8h.html" title="BufferNode.h" alt="" coords="547,379,643,405"/>
+<area shape="rect" id="node31" href="$flim_filter_8h.html" title="flimFilter.h" alt="" coords="2299,379,2381,405"/>
+<area shape="rect" id="node35" href="$_circular_index_8h.html" title="CircularIndex.h" alt="" coords="2590,304,2698,331"/>
+<area shape="rect" id="node36" href="$_sound_call_registry_8h.html" title="SoundCallRegistry.h" alt="" coords="2634,528,2774,555"/>
+<area shape="rect" id="node38" href="$_thread_communication_command_8h.html" title="ThreadCommunicationCommand.h" alt="" coords="2779,453,3000,480"/>
+<area shape="rect" id="node39" href="$_start_playlist_command_8h.html" title="StartPlaylistCommand.h" alt="" coords="2808,379,2971,405"/>
+<area shape="rect" id="node40" href="$_callback_sound_ended_command_8h.html" title="CallbackSoundEndedCommand.h" alt="" coords="2995,379,3211,405"/>
+<area shape="rect" id="node41" href="$_terminate_sound_engine_command_8h.html" title="TerminateSoundEngineCommand.h" alt="" coords="2557,379,2784,405"/>
+<area shape="rect" id="node46" href="$_audio_command_8h.html" title="AudioCommand.h" alt="" coords="347,379,472,405"/>
+</map>

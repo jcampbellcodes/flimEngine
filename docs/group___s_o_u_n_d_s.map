@@ -1,0 +1,6 @@
+<map id="Sound" name="Sound">
+<area shape="rect" id="node1" href="$group___f_l_i_m_f_i_l_t_e_r.html" title="Objects used with flimSounds to configure filtering effects. " alt="" coords="235,5,306,32"/>
+<area shape="rect" id="node2" href="$group___f_l_i_m_l_i_s_t_e_n_e_r.html" title="The flimListener is an object whose position and orientation must be specified by the user to correct..." alt="" coords="227,56,315,83"/>
+<area shape="rect" id="node4" href="$group___f_l_i_m_s_o_u_n_d.html" title="flimSounds provide audio playback and processing functionality. " alt="" coords="227,107,314,133"/>
+<area shape="rect" id="node5" href="$group___f_l_i_m___a_p_i.html" title="The is the interface to be used for nearly all flim tasks. " alt="" coords="5,56,72,83"/>
+</map>

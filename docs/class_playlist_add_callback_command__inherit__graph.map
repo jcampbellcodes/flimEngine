@@ -1,0 +1,4 @@
+<map id="PlaylistAddCallbackCommand" name="PlaylistAddCallbackCommand">
+<area shape="rect" id="node2" href="$class_playlist_initialization_command.html" title="{PlaylistInitializationCommand\n||+ PlaylistInitializationCommand()\l+ ~PlaylistInitializationCommand()\l+ operator=()\l+ PlaylistInitializationCommand()\l+ AttachPlaylist()\l+ execute()\l}" alt="" coords="8,263,228,413"/>
+<area shape="rect" id="node3" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="63,5,173,215"/>
+</map>

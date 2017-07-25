@@ -1,0 +1,4 @@
+<map id="CollisionTestSelfCommand&lt; C &gt;" name="CollisionTestSelfCommand&lt; C &gt;">
+<area shape="rect" id="node2" href="$class_collision_test_command.html" title="{CollisionTestCommand\n||+ CollisionTestCommand()\l+ ~CollisionTestCommand()\l+ operator=()\l+ CollisionTestCommand()\l+ execute()\l}" alt="" coords="19,263,202,399"/>
+<area shape="rect" id="node3" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="56,5,165,215"/>
+</map>

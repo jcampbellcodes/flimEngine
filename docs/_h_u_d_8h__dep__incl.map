@@ -1,0 +1,7 @@
+<map id="HUD.h" name="HUD.h">
+<area shape="rect" id="node2" href="$_enemy_factory_8cpp.html" title="EnemyFactory.cpp" alt="" coords="5,80,137,107"/>
+<area shape="rect" id="node3" href="$_h_u_d_8cpp.html" title="HUD.cpp" alt="" coords="162,80,237,107"/>
+<area shape="rect" id="node4" href="$_level2_8cpp.html" title="Level2.cpp" alt="" coords="261,80,343,107"/>
+<area shape="rect" id="node5" href="$_level3_8cpp.html" title="Level3.cpp" alt="" coords="367,80,450,107"/>
+<area shape="rect" id="node6" href="$_tank_scene_8cpp.html" title="TankScene.cpp" alt="" coords="474,80,586,107"/>
+</map>

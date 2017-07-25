@@ -1,0 +1,4 @@
+<map id="CollisionTestPairCommand&lt; C1, C2 &gt;" name="CollisionTestPairCommand&lt; C1, C2 &gt;">
+<area shape="rect" id="node2" href="$class_collision_test_command.html" title="{CollisionTestCommand\n||+ CollisionTestCommand()\l+ ~CollisionTestCommand()\l+ operator=()\l+ CollisionTestCommand()\l+ execute()\l}" alt="" coords="5,264,188,400"/>
+<area shape="rect" id="node3" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="42,5,151,215"/>
+</map>

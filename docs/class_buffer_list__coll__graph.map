@@ -1,0 +1,5 @@
+<map id="BufferList" name="BufferList">
+<area shape="rect" id="node2" href="$class_list.html" title="{List\n||+ List()\l+ ~List()\l+ List()\l+ operator=()\l+ Add()\l+ Remove()\l+ Add()\l+ Remove()\l+ Find()\l+ Print()\l}" alt="" coords="5,351,103,560"/>
+<area shape="rect" id="node3" href="$class_node.html" title="{Node\n|&#45; data\l|+ Node()\l+ Node()\l+ ~Node()\l+ Node()\l+ operator=()\l+ GetNext()\l+ SetNext()\l+ GetPrev()\l+ SetPrev()\l+ GetData()\l+ SetData()\l}" alt="" coords="5,5,103,229"/>
+<area shape="rect" id="node4" href="$class_buffer_node.html" title="{BufferNode\n|&#45; data\l&#45; buffer\l&#45; wfx\l&#45; refCount\l|+ BufferNode()\l+ BufferNode()\l+ ~BufferNode()\l+ BufferNode()\l+ operator=()\l+ GetNext()\l+ SetNext()\l+ GetPrev()\l+ SetPrev()\l+ GetData()\l+ SetData()\l+ InitializeData()\l+ AddRef()\l+ RemoveRef()\l+ InUse()\l}" alt="" coords="127,292,243,619"/>
+</map>

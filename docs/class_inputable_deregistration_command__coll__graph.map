@@ -1,0 +1,5 @@
+<map id="InputableDeregistrationCommand" name="InputableDeregistrationCommand">
+<area shape="rect" id="node3" href="$class_inputable.html" title="{Inputable\n|&#45; regState\l|+ Inputable()\l+ ~Inputable()\l+ Inputable()\l+ operator=()\l+ KeyPressed()\l+ KeyReleased()\l+ SubmitInputRegistration()\l+ SubmitInputDeregistration()\l+ GetDeletionIterator()\l+ SetDeletionIterator()\l&#45; SceneRegistration()\l&#45; SceneDeregistration()\l}" alt="" coords="110,507,301,745"/>
+<area shape="rect" id="node2" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="309,5,419,215"/>
+<area shape="rect" id="node5" href="$class_inputable_registration_command.html" title="{InputableRegistrationCommand\n|&#45; key\l&#45; type\l|+ InputableRegistrationCommand()\l+ ~InputableRegistrationCommand()\l+ InputableRegistrationCommand()\l+ operator=()\l+ InputableRegistrationCommand()\l+ execute()\l}" alt="" coords="190,808,421,973"/>
+</map>

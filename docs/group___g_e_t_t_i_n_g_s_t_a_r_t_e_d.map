@@ -1,0 +1,9 @@
+<map id="Getting Started" name="Getting Started">
+<area shape="rect" id="node1" href="$group___d_e_f_i_n_e_s_c_e_n_e_s.html" title="How to define a single empty scene by deriving from flimEngine&#39;s Scene class. " alt="" coords="201,5,321,32"/>
+<area shape="rect" id="node2" href="$group___c_h_a_n_g_e_s_c_e_n_e_s.html" title="How to change a scene. " alt="" coords="199,56,323,83"/>
+<area shape="rect" id="node3" href="$group___i_n_i_t_a_l_i_z_a_t_i_o_n.html" title="How to load resources and set basic properties for your game. " alt="" coords="179,107,343,133"/>
+<area shape="rect" id="node4" href="$group___s_o_u_n_d.html" title="How to use sounds in flimEngine. " alt="" coords="209,157,312,184"/>
+<area shape="rect" id="node5" href="$group___d_e_f_i_n_e_g_o_s.html" title="How to define a basic GameObject. " alt="" coords="164,208,357,235"/>
+<area shape="rect" id="node6" href="$group___t_e_r_r_a_i_n_t_u_t.html" title="How to use terrain. " alt="" coords="211,259,310,285"/>
+<area shape="rect" id="node7" href="$group___g_o_p_r_o_p_s.html" title="GameObjects have extra properties that they can be registered for, such as Alarms (callbacks that fir..." alt="" coords="187,310,334,351"/>
+</map>

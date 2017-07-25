@@ -1,0 +1,9 @@
+<map id="Alarmable.h" name="Alarmable.h">
+<area shape="rect" id="node3" href="$_flim_8h.html" title="Flim.h" alt="" coords="21,80,79,107"/>
+<area shape="rect" id="node5" href="$_alarm_registration_command_8h.html" title="AlarmRegistrationCommand.h" alt="" coords="154,80,349,107"/>
+<area shape="rect" id="node7" href="$_alarmable_manager_8h.html" title="AlarmableManager.h" alt="" coords="447,155,589,181"/>
+<area shape="rect" id="node9" href="$_flim_2err_8h.html" title="err.h" alt="" coords="662,229,710,256"/>
+<area shape="rect" id="node10" href="$_alarm_deregistration_command_8h.html" title="AlarmDeregistrationCommand.h" alt="" coords="373,80,580,107"/>
+<area shape="rect" id="node11" href="$_reg_state_8h.html" title="RegState.h" alt="" coords="757,80,844,107"/>
+<area shape="rect" id="node6" href="$_flim_2_command_8h.html" title="Command.h" alt="" coords="205,155,297,181"/>
+</map>

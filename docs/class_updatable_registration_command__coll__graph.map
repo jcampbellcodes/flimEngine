@@ -1,0 +1,5 @@
+<map id="UpdatableRegistrationCommand" name="UpdatableRegistrationCommand">
+<area shape="rect" id="node3" href="$class_updatable.html" title="{Updatable\n|&#45; regState\l|+ Updatable()\l+ ~Updatable()\l+ Updatable()\l+ operator=()\l+ Update()\l+ SubmitUpdateRegistration()\l+ SubmitUpdateDeregistration()\l&#45; SceneRegistration()\l&#45; SceneDeregistration()\l}" alt="" coords="114,477,318,672"/>
+<area shape="rect" id="node2" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="296,5,405,215"/>
+<area shape="rect" id="node4" href="$class_updatable_deregistration_command.html" title="{UpdatableDeregistrationCommand\n||+ UpdatableDeregistrationCommand()\l+ ~UpdatableDeregistration\lCommand()\l+ UpdatableDeregistrationCommand()\l+ operator=()\l+ UpdatableDeregistrationCommand()\l+ execute()\l}" alt="" coords="237,735,475,900"/>
+</map>

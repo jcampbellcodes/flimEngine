@@ -1,0 +1,4 @@
+<map id="SceneDeregistrationCommand" name="SceneDeregistrationCommand">
+<area shape="rect" id="node3" href="$class_collision_deregistration_command.html" title="{CollisionDeregistrationCommand\&lt; C \&gt;\n|&#45; collidable\l|+ CollisionDeregistrationCommand()\l+ execute()\l+ ~CollisionDeregistration\lCommand()\l}" alt="" coords="5,447,248,568"/>
+<area shape="rect" id="node2" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="72,5,181,215"/>
+</map>

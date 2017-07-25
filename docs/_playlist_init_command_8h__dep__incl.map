@@ -1,0 +1,10 @@
+<map id="PlaylistInitCommand.h" name="PlaylistInitCommand.h">
+<area shape="rect" id="node2" href="$_playlist_add_callback_command_8h.html" title="PlaylistAddCallbackCommand.h" alt="" coords="101,80,309,107"/>
+<area shape="rect" id="node5" href="$_playlist_add_command_8h.html" title="PlaylistAddCommand.h" alt="" coords="333,80,492,107"/>
+<area shape="rect" id="node7" href="$_playlist_add_sound_command_8h.html" title="PlaylistAddSoundCommand.h" alt="" coords="517,80,711,107"/>
+<area shape="rect" id="node9" href="$_playlist_factory_8cpp.html" title="PlaylistFactory.cpp" alt="" coords="736,80,871,107"/>
+<area shape="rect" id="node3" href="$_playlist_add_callback_command_8cpp.html" title="PlaylistAddCallbackCommand.cpp" alt="" coords="5,155,228,181"/>
+<area shape="rect" id="node4" href="$_playlist_manager_8cpp.html" title="PlaylistManager.cpp" alt="" coords="252,155,392,181"/>
+<area shape="rect" id="node6" href="$_playlist_add_command_8cpp.html" title="PlaylistAddCommand.cpp" alt="" coords="416,155,588,181"/>
+<area shape="rect" id="node8" href="$_playlist_add_sound_command_8cpp.html" title="PlaylistAddSoundCommand.cpp" alt="" coords="612,155,821,181"/>
+</map>

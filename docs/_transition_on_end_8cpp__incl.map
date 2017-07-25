@@ -1,0 +1,16 @@
+<map id="TransitionOnEnd.cpp" name="TransitionOnEnd.cpp">
+<area shape="rect" id="node2" href="$_transition_on_end_8h.html" title="TransitionOnEnd.h" alt="" coords="363,80,492,107"/>
+<area shape="rect" id="node15" href="$_sound_8h.html" title="Sound.h" alt="" coords="795,80,865,107"/>
+<area shape="rect" id="node24" href="$_trace_8h.html" title="Trace\\Trace.h" alt="" coords="890,80,991,107"/>
+<area shape="rect" id="node3" href="$_callback_command_8h.html" title="CallbackCommand.h" alt="" coords="76,155,219,181"/>
+<area shape="rect" id="node6" href="$_callback_manager_8h.html" title="CallbackManager.h" alt="" coords="491,229,625,256"/>
+<area shape="rect" id="node14" href="$_audio_command_8h.html" title="AudioCommand.h" alt="" coords="94,229,219,256"/>
+<area shape="rect" id="node7" href="$snd__err_8h.html" title="snd_err.h" alt="" coords="295,304,371,331"/>
+<area shape="rect" id="node8" href="$_auto_x_a2_include_8h.html" title="AutoXA2Include.h" alt="" coords="700,304,824,331"/>
+<area shape="rect" id="node11" href="$_snd_executioner_8h.html" title="SndExecutioner.h" alt="" coords="395,304,521,331"/>
+<area shape="rect" id="node9" href="$vcsversion_8h.html" title="../vcsversion.h" alt="" coords="805,379,909,405"/>
+<area shape="rect" id="node13" href="$_sound_engine_2_command_8h.html" title="Command.h" alt="" coords="244,379,336,405"/>
+<area shape="rect" id="node16" href="$_handle_8h.html" title="Handle.h" alt="" coords="793,155,867,181"/>
+<area shape="rect" id="node17" href="$_handle_manager_8h.html" title="HandleManager.h" alt="" coords="294,229,417,256"/>
+<area shape="rect" id="node18" href="$_voice_factory_8h.html" title="VoiceFactory.h" alt="" coords="607,155,717,181"/>
+</map>

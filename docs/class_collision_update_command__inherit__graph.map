@@ -1,0 +1,4 @@
+<map id="CollisionUpdateCommand" name="CollisionUpdateCommand">
+<area shape="rect" id="node3" href="$class_collidable_group_update_command.html" title="{CollidableGroupUpdateCommand\&lt; C \&gt;\n|&#45; Collection\l|+ CollidableGroupUpdateCommand()\l+ ~CollidableGroupUpdateCommand()\l+ execute()\l}" alt="" coords="5,447,252,553"/>
+<area shape="rect" id="node2" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="74,5,183,215"/>
+</map>

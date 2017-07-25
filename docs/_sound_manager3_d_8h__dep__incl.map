@@ -1,0 +1,8 @@
+<map id="SoundManager3D.h" name="SoundManager3D.h">
+<area shape="rect" id="node2" href="$_audio_main_8cpp.html" title="AudioMain.cpp" alt="" coords="5,80,113,107"/>
+<area shape="rect" id="node3" href="$_channel_8cpp.html" title="Channel.cpp" alt="" coords="137,80,232,107"/>
+<area shape="rect" id="node4" href="$_playlist_8cpp.html" title="Playlist.cpp" alt="" coords="257,80,347,107"/>
+<area shape="rect" id="node5" href="$_sound_8cpp.html" title="Sound.cpp" alt="" coords="372,80,456,107"/>
+<area shape="rect" id="node6" href="$_sound_manager_8cpp.html" title="SoundManager.cpp" alt="" coords="480,80,615,107"/>
+<area shape="rect" id="node7" href="$_sound_manager3_d_8cpp.html" title="SoundManager3D.cpp" alt="" coords="639,80,789,107"/>
+</map>

@@ -1,0 +1,25 @@
+var class_flim_sprite =
+[
+    [ "FlimSprite", "class_flim_sprite.html#aaf50f1f46392d21f92aa262270c3531b", null ],
+    [ "FlimSprite", "class_flim_sprite.html#a7497c511ca90f3ffa8f8e27fe8db1542", null ],
+    [ "~FlimSprite", "class_flim_sprite.html#ac15e638af24c3217a8a052a4fc2dad88", null ],
+    [ "FlimSprite", "group___s_p_r_i_t_e_s.html#ga0cc2c8e8842669143b02e5270dfcce32", null ],
+    [ "GetAngle", "group___s_p_r_i_t_e_s.html#gabf20fbe9485a7aeca67c2aef3d6df972", null ],
+    [ "GetCenter", "group___s_p_r_i_t_e_s.html#ga0a6843b2d86c8f498895f20e53623673", null ],
+    [ "GetPos", "group___s_p_r_i_t_e_s.html#ga43a46c99280819712c70d3715f5d536b", null ],
+    [ "GetScale", "group___s_p_r_i_t_e_s.html#ga6fa2666d50260e76890ba25ecbdc3750", null ],
+    [ "GetSize", "class_flim_sprite.html#a50069f823674acb10a5d5d2f534d5fab", null ],
+    [ "operator=", "class_flim_sprite.html#ab3665da8390a1b2278524c694062beac", null ],
+    [ "Render", "class_flim_sprite.html#a48097d79df22bc61311f386aadc68649", null ],
+    [ "SetAngle", "group___s_p_r_i_t_e_s.html#gabac7ff2a12c4e060b5587809c5abd53c", null ],
+    [ "SetCenter", "group___s_p_r_i_t_e_s.html#gaf23dfd1cd8c97bce7820cf928c91b409", null ],
+    [ "SetPos", "group___s_p_r_i_t_e_s.html#gac60aa8b2bffb348e6b57a26e2437a590", null ],
+    [ "SetScale", "group___s_p_r_i_t_e_s.html#gabe9658512a03fbf465cf3f85c59d776f", null ],
+    [ "SetScale", "group___s_p_r_i_t_e_s.html#ga8b36ef10794b52944395227803979983", null ],
+    [ "SetScale", "group___s_p_r_i_t_e_s.html#gac108f366a591d7f4365e606323ac0909", null ],
+    [ "_sprite", "class_flim_sprite.html#a7e613048062ae25323df59cb770aaa87", null ],
+    [ "angle", "class_flim_sprite.html#a4a696063006c2e911492cb06880e9e52", null ],
+    [ "center", "class_flim_sprite.html#af7f85e27e072672115b38e31910abe86", null ],
+    [ "pos", "class_flim_sprite.html#a8f75bcc21b4bd1f3c22504a979edf9c3", null ],
+    [ "scale", "class_flim_sprite.html#a8adb0d8ebb31d350d6383447fc4cdebe", null ]
+];

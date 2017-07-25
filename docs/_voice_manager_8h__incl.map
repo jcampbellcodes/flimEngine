@@ -1,0 +1,12 @@
+<map id="VoiceManager.h" name="VoiceManager.h">
+<area shape="rect" id="node2" href="$snd__err_8h.html" title="snd_err.h" alt="" coords="42,304,118,331"/>
+<area shape="rect" id="node3" href="$_auto_x_a2_include_8h.html" title="AutoXA2Include.h" alt="" coords="245,304,369,331"/>
+<area shape="rect" id="node6" href="$_manager_8h.html" title="Manager.h" alt="" coords="36,80,119,107"/>
+<area shape="rect" id="node7" href="$_list_8h.html" title="List.h" alt="" coords="94,155,149,181"/>
+<area shape="rect" id="node8" href="$_buffer_node_8h.html" title="BufferNode.h" alt="" coords="131,229,227,256"/>
+<area shape="rect" id="node10" href="$_voice_factory_8h.html" title="VoiceFactory.h" alt="" coords="374,155,485,181"/>
+<area shape="rect" id="node4" href="$vcsversion_8h.html" title="../vcsversion.h" alt="" coords="297,379,401,405"/>
+<area shape="rect" id="node11" href="$_callback_manager_8h.html" title="CallbackManager.h" alt="" coords="467,229,600,256"/>
+<area shape="rect" id="node13" href="$_snd_executioner_8h.html" title="SndExecutioner.h" alt="" coords="444,304,569,331"/>
+<area shape="rect" id="node15" href="$_sound_engine_2_command_8h.html" title="Command.h" alt="" coords="477,379,569,405"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="CollisionVolumeLine" name="CollisionVolumeLine">
+<area shape="rect" id="node4" href="$class_collision_volume_occlusion_line.html" title="{CollisionVolumeOcclusionLine\n||+ CollisionVolumeOcclusionLine()\l+ ~CollisionVolumeOcclusionLine()\l+ CollisionVolumeOcclusionLine()\l+ operator=()\l+ getStartPoint()\l+ getEndPoint()\l+ ComputeData()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ DebugView()\l}" alt="" coords="5,675,231,928"/>
+<area shape="rect" id="node2" href="$class_collision_volume.html" title="{CollisionVolume\n||+ CollisionVolume()\l+ ~CollisionVolume()\l+ CollisionVolume()\l+ operator=()\l+ ComputeData()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ Intersect()\l+ DebugView()\l}" alt="" coords="47,131,189,355"/>
+</map>

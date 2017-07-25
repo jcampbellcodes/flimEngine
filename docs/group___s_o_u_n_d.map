@@ -1,0 +1,8 @@
+<map id="Using Sounds" name="Using Sounds">
+<area shape="rect" id="node1" href="$group___s_o_u_n_d_p_l_a_y_b_a_c_k.html" title="How to use the playback properties of flimSounds. " alt="" coords="315,5,469,32"/>
+<area shape="rect" id="node2" href="$group___l_o_a_d_i_n_g_s_o_u_n_d.html" title="Initialize the flim Sound engine. " alt="" coords="329,56,455,83"/>
+<area shape="rect" id="node3" href="$group___s_o_u_n_d_f_i_l_t_e_r.html" title="How to use flimFilters on flimSounds. " alt="" coords="345,107,439,133"/>
+<area shape="rect" id="node5" href="$group___s_o_u_n_d_r_e_v_e_r_b.html" title="How to access reverb properties of flimSounds. " alt="" coords="343,157,441,184"/>
+<area shape="rect" id="node6" href="$group___s_o_u_n_d3_d.html" title="How to activate the 3D sound engine. " alt="" coords="321,209,463,250"/>
+<area shape="rect" id="node7" href="$group___g_e_t_t_i_n_g_s_t_a_r_t_e_d.html" title="Do a writeup on how to start a scene with a single graphics object. " alt="" coords="5,107,116,133"/>
+</map>

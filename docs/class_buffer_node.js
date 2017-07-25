@@ -1,0 +1,26 @@
+var class_buffer_node =
+[
+    [ "BufferNode", "class_buffer_node.html#a4f8043877a9a8873ef766a46735733a7", null ],
+    [ "BufferNode", "class_buffer_node.html#aab0a6f4940806a5af11647dd78f88c90", null ],
+    [ "~BufferNode", "class_buffer_node.html#ab10d1dd0d878fe6ceda5ba2dc024e51b", null ],
+    [ "BufferNode", "class_buffer_node.html#a108f62aeb2b3b67736d7c411351db705", null ],
+    [ "AddRef", "class_buffer_node.html#ab26e3357ac296be5927b2775fcc0551d", null ],
+    [ "GetData", "class_buffer_node.html#a7c6ad98b54f8bcc20098ae90b8619045", null ],
+    [ "GetNext", "class_buffer_node.html#a0ddba144cc6e2e61c48d436614516cb8", null ],
+    [ "GetPrev", "class_buffer_node.html#a23f7e11b55de2b66803f3f859dd12879", null ],
+    [ "InitializeData", "class_buffer_node.html#a670a80b0f50bad528fed723c9a09f151", null ],
+    [ "InUse", "class_buffer_node.html#af02a13f9d487c76f1b996472d1ddff85", null ],
+    [ "operator=", "class_buffer_node.html#a53945b49a44d253a07b27e60588506b6", null ],
+    [ "RemoveRef", "class_buffer_node.html#ab392036bffaca045c507ac3cdcc49f4e", null ],
+    [ "SetData", "class_buffer_node.html#a1399a64afe3173727cee7dcb8aad66c9", null ],
+    [ "SetNext", "class_buffer_node.html#a8f0291c44eba4b0aa451a2d490e37064", null ],
+    [ "SetPrev", "class_buffer_node.html#a74c84eef4f3bc897f87df6903d39b117", null ],
+    [ "BufferList", "class_buffer_node.html#ad375dba6102450b91b6b577397afb6a7", null ],
+    [ "BufferManager", "class_buffer_node.html#a16155b1414091f690eefe4f5292199dc", null ],
+    [ "buffer", "class_buffer_node.html#ab772072d4b3d8ceaa5fbd64afd0b485a", null ],
+    [ "data", "class_buffer_node.html#a13d8935f5a7f05efcfd195e5b7f9abca", null ],
+    [ "next", "class_buffer_node.html#a0bcc4464095dc62be8cd89c4ffeb21e2", null ],
+    [ "prev", "class_buffer_node.html#ab4236133a995a2d6d71065ce4ab0e0e5", null ],
+    [ "refCount", "class_buffer_node.html#a4e9df26e1a881ded5cd3f7d4dbe643c0", null ],
+    [ "wfx", "class_buffer_node.html#ade40666c7696b814088a5da3cd1395e5", null ]
+];

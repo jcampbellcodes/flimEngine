@@ -1,0 +1,6 @@
+<map id="CollisionTestCommand" name="CollisionTestCommand">
+<area shape="rect" id="node3" href="$class_collision_test_pair_command.html" title="{CollisionTestPairCommand\l\&lt; C1, C2 \&gt;\n|&#45; Collection1\l&#45; Collection2\l|+ CollisionTestPairCommand()\l+ ~CollisionTestPairCommand()\l+ execute()\l}" alt="" coords="5,447,212,583"/>
+<area shape="rect" id="node4" href="$class_collision_test_self_command.html" title="{CollisionTestSelfCommand\&lt; C \&gt;\n|&#45; Collection\l|+ CollisionTestSelfCommand()\l+ ~CollisionTestSelfCommand()\l+ execute()\l}" alt="" coords="237,461,447,568"/>
+<area shape="rect" id="node5" href="$class_collision_test_terrain_command.html" title="{CollisionTestTerrainCommand\&lt; C \&gt;\n|&#45; Collection\l|+ CollisionTestTerrainCommand()\l+ ~CollisionTestTerrainCommand()\l+ execute()\l}" alt="" coords="471,461,698,568"/>
+<area shape="rect" id="node2" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="287,5,397,215"/>
+</map>

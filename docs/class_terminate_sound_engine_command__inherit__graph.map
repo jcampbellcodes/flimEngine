@@ -1,0 +1,4 @@
+<map id="TerminateSoundEngineCommand" name="TerminateSoundEngineCommand">
+<area shape="rect" id="node2" href="$class_thread_communication_command.html" title="{ThreadCommunicationCommand\n||+ ThreadCommunicationCommand()\l+ ~ThreadCommunicationCommand()\l+ ThreadCommunicationCommand()\l+ operator=()\l+ execute()\l}" alt="" coords="7,263,246,399"/>
+<area shape="rect" id="node3" href="$class_command.html" title="{Command\n||+ Command()\l+ execute()\l+ ~Command()\l+ operator=()\l+ Command()\l+ Command()\l+ ~Command()\l+ operator=()\l+ Command()\l+ execute()\l}" alt="" coords="72,5,181,215"/>
+</map>

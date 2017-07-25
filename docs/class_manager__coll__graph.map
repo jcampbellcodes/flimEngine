@@ -1,0 +1,4 @@
+<map id="Manager" name="Manager">
+<area shape="rect" id="node2" href="$class_list.html" title="{List\n||+ List()\l+ ~List()\l+ List()\l+ operator=()\l+ Add()\l+ Remove()\l+ Add()\l+ Remove()\l+ Find()\l+ Print()\l}" alt="" coords="10,292,107,501"/>
+<area shape="rect" id="node3" href="$class_node.html" title="{Node\n|&#45; data\l|+ Node()\l+ Node()\l+ ~Node()\l+ Node()\l+ operator=()\l+ GetNext()\l+ SetNext()\l+ GetPrev()\l+ SetPrev()\l+ GetData()\l+ SetData()\l}" alt="" coords="10,5,107,229"/>
+</map>

@@ -1,0 +1,3 @@
+<map id="FlimTime" name="FlimTime">
+<area shape="rect" id="node2" href="$class_freeze_time.html" title="{FreezeTime\n|&#45; totalFrozenTime\l&#45; freeze_mode_active\l&#45; FREEZE_KEY\l&#45; SINGLE_FRAME_KEY\l|+ FreezeTime()\l+ ~FreezeTime()\l+ FreezeTime()\l+ operator=()\l+ GetTimeInSeconds()\l&#45; WaitAndReturnFrozenTime()\l&#45; HackedKeyRelease()\l}" alt="" coords="5,5,200,215"/>
+</map>
