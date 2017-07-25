@@ -1,0 +1,1957 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Flim\ModelManager.cpp">
+      <Filter>GameEngine\FlimEngine\AssetLoaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\ShaderManager.cpp">
+      <Filter>GameEngine\FlimEngine\AssetLoaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\TextureManager.cpp">
+      <Filter>GameEngine\FlimEngine\AssetLoaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\LoadResources.cpp">
+      <Filter>GameEngine\FlimResources</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\GameInitialize.cpp">
+      <Filter>GameEngine\FlimResources</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\Flim.cpp">
+      <Filter>GameEngine\FlimEngine\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\main.cpp">
+      <Filter>GameEngine\FlimEngine\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\SceneManager.cpp">
+      <Filter>GameEngine\FlimEngine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\Scene.cpp">
+      <Filter>GameEngine\FlimEngine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\Executioner.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\Updatable.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Updatable</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\UpdatableManager.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Updatable</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\Drawable.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\DrawableManager.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\AlarmableManager.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Alarmable</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\Alarmable.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Alarmable</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\Inputable.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Inputable</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\KeyboardEventManager.cpp">
+      <Filter>GameEngine\FlimEngine\Managers\KeyboardEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\KeyEvent.cpp">
+      <Filter>GameEngine\FlimEngine\Managers\KeyboardEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\GameObject.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\TimeManager.cpp">
+      <Filter>GameEngine\FlimEngine\Managers\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\FreezeTime.cpp">
+      <Filter>GameEngine\FlimEngine\Tools\FreezeFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\SceneChangeCommand.cpp">
+      <Filter>GameEngine\FlimEngine\SceneManagement\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\SceneUpdateCommand.cpp">
+      <Filter>GameEngine\FlimEngine\SceneManagement\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\Collidable.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Collidable</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\DrawableDeregCommand.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Drawable\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\DrawableRegCommand.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Drawable\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\GameobjDeregCommand.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\GameObjects\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\GameobjRegCommand.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\GameObjects\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\InputableDeregCommand.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Inputable\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\InputableRegCommand.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Inputable\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\UpdatableDeregCommand.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Updatable\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\UpdatableRegCommand.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Updatable\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\AlarmDeregistrationCommand.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Alarmable\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\AlarmRegistrationCommand.cpp">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Alarmable\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\CollisionManager.cpp">
+      <Filter>GameEngine\FlimEngine\Managers\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\CameraManager.cpp">
+      <Filter>GameEngine\FlimEngine\Managers\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\CollisionVolumeBSphere.cpp">
+      <Filter>GameEngine\FlimEngine\Collisions\CollisionVolumes\CollisionVolumeBSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\MathTools.cpp">
+      <Filter>GameEngine\FlimEngine\Tools\MathTools</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\Visualizer.cpp">
+      <Filter>GameEngine\FlimEngine\Tools\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\FlimColor.cpp">
+      <Filter>GameEngine\FlimEngine\Tools\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\RenderBSphereCommand.cpp">
+      <Filter>GameEngine\FlimEngine\Tools\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\Trace\Trace.cpp">
+      <Filter>SoundEngine\Tools\Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\Playlist.cpp">
+      <Filter>SoundEngine\Scripting\Playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PlaylistFactory.cpp">
+      <Filter>SoundEngine\Scripting\Playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PlaylistManager.cpp">
+      <Filter>SoundEngine\Scripting\Playlist</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\HashThis.cpp">
+      <Filter>SoundEngine\Tools\Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\md5.cpp">
+      <Filter>SoundEngine\Tools\Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\sndmathtools.cpp">
+      <Filter>SoundEngine\Tools\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadHelper.cpp">
+      <Filter>SoundEngine\Tools\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AssignCallbackCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\AudioCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\AudioCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\CallbackCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\CallbackCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\LoopCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\AudioCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PanCmd.cpp">
+      <Filter>SoundEngine\Scripting\Commands\AudioCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PitchCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\AudioCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PlayCmd.cpp">
+      <Filter>SoundEngine\Scripting\Commands\AudioCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PlaylistAddCallbackCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PlaylistAddCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PlaylistAddSoundCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\TransitionOnEnd.cpp">
+      <Filter>SoundEngine\Scripting\Commands\AudioCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\VolumeCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\AudioCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\SoundCall.cpp">
+      <Filter>SoundEngine\SoundInterface\Game\SoundCall</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\Handle.cpp">
+      <Filter>SoundEngine\SoundInterface\Game\SoundCall\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\HandleManager.cpp">
+      <Filter>SoundEngine\SoundInterface\Game\SoundCall\Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\CircularData.cpp">
+      <Filter>SoundEngine\SoundInterface\Game\SoundEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\SoundEngine.cpp">
+      <Filter>SoundEngine\SoundInterface\Game\SoundEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ShipGrowCommand.cpp">
+      <Filter>TestUserSoundCallbackCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\InternalSoundEnded.cpp">
+      <Filter>SoundEngine\Scripting\Commands\CallbackCommands\SoundEnded</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\BufferManager.cpp">
+      <Filter>SoundEngine\Management\BuffMan</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\BufferNode.cpp">
+      <Filter>SoundEngine\Management\BuffMan</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\List.cpp">
+      <Filter>SoundEngine\Management\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\Node.cpp">
+      <Filter>SoundEngine\Management\Generic</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\SndExecutioner.cpp">
+      <Filter>SoundEngine\Scripting\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\VoiceFactory.cpp">
+      <Filter>SoundEngine\Management\VoiceMan</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\VoiceManager.cpp">
+      <Filter>SoundEngine\Management\VoiceMan</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\CallbackManager.cpp">
+      <Filter>SoundEngine\Management\VoiceMan</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\TerminateSoundEngineCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\StartPlaylistCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\Playlists</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\CallbackSoundEndedCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\Playlists</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PriorityManager.cpp">
+      <Filter>SoundEngine\SoundInterface\Game\Priority</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioFileMain.cpp">
+      <Filter>SoundEngine\SoundInterface\File</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PlaylistPauseCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistAudioCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PlaylistPanCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistAudioCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PlaylistPitchCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistAudioCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PlaylistPlayCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistAudioCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PlaylistStopCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistAudioCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PlaylistVolumeCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistAudioCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\MarkForPlayCommand.cpp">
+      <Filter>SoundEngine\SoundInterface\Game\Priority</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\SoundCallPrintDurationCommand.cpp">
+      <Filter>SoundEngine\SoundInterface\Game\SoundCall</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PrintPriorityCommand.cpp">
+      <Filter>SoundEngine\SoundInterface\Game\Priority</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\MarkForStopCommand.cpp">
+      <Filter>SoundEngine\SoundInterface\Game\Priority</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PrintSoundCommand.cpp">
+      <Filter>SoundEngine\SoundInterface\Game\SoundCall</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\GameTerminate.cpp">
+      <Filter>GameEngine\FlimResources</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\ImageManager.cpp">
+      <Filter>GameEngine\FlimEngine\AssetLoaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\FlimSprite.cpp">
+      <Filter>GameEngine\FlimEngine\AssetLoaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\CollisionVolumeAABB.cpp">
+      <Filter>GameEngine\FlimEngine\Collisions\CollisionVolumes\CollisionVolumeAABB</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\RenderAABBCommand.cpp">
+      <Filter>GameEngine\FlimEngine\Tools\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\IndividualSoundEnded.cpp">
+      <Filter>SoundEngine\Scripting\Commands\CallbackCommands\SoundEnded</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PlaylistLoopCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistAudioCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\CollisionVolumeOBB.cpp">
+      <Filter>GameEngine\FlimEngine\Collisions\CollisionVolumes\OBB</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\RenderBoxCommand.cpp">
+      <Filter>GameEngine\FlimEngine\Tools\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\Channel.cpp">
+      <Filter>SoundEngine\SoundInterface\Sound\SoundManagement\Sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\Sound.cpp">
+      <Filter>SoundEngine\SoundInterface\Sound\SoundManagement\Sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\SoundList.cpp">
+      <Filter>SoundEngine\SoundInterface\Sound\SoundManagement\Sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\SoundNode.cpp">
+      <Filter>SoundEngine\SoundInterface\Sound\SoundManagement\Sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioMain.cpp">
+      <Filter>SoundEngine\SoundInterface\Sound\SoundManagement\AudioMain</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\Timeline.cpp">
+      <Filter>SoundEngine\SoundInterface\Sound\SoundManagement\Timeline</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\SoundManager.cpp">
+      <Filter>SoundEngine\SoundInterface\Sound\SoundManagement\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\SoundManager3D.cpp">
+      <Filter>SoundEngine\SoundInterface\Sound\SoundManagement\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\flimSound.cpp">
+      <Filter>SoundEngine\SoundInterface\Game\flimSound\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\flimReverb.cpp">
+      <Filter>SoundEngine\SoundInterface\Game\flimSound\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Cottage.cpp">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Frigate.cpp">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FrigateFactory.cpp">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneDemo.cpp">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTest.cpp">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SpacePlane.cpp">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldPlane.cpp">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\FlimListener.cpp">
+      <Filter>SoundEngine\SoundInterface\Game\flimSound\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\flimFilter.cpp">
+      <Filter>SoundEngine\SoundInterface\Game\flimSound\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\Terrain.cpp">
+      <Filter>GameEngine\FlimEngine\AssetLoaders\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\CollisionVolumeOcclusionLine.cpp">
+      <Filter>GameEngine\FlimEngine\Collisions\CollisionVolumes\Line\OcclusionLine</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\SoundTest.cpp">
+      <Filter>GameEngine\UserCode\sound tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\OcclusionScene.cpp">
+      <Filter>GameEngine\UserCode\sound tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\TerrainManager.cpp">
+      <Filter>GameEngine\FlimEngine\AssetLoaders\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\TerrainCellRange.cpp">
+      <Filter>GameEngine\FlimEngine\AssetLoaders\Terrain\TerrainCell</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\TerrainCell.cpp">
+      <Filter>GameEngine\FlimEngine\AssetLoaders\Terrain\TerrainCell</Filter>
+    </ClCompile>
+    <ClCompile Include="Flim\TerrainCellIter.cpp">
+      <Filter>GameEngine\FlimEngine\AssetLoaders\Terrain\TerrainCell</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>GameEngine\UserCode\tank\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>GameEngine\UserCode\tank\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="TankScene.cpp">
+      <Filter>GameEngine\UserCode\tank\lvl1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletFactory.cpp">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFactory.cpp">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionFactory.cpp">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Minimap.cpp">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Sentry.cpp">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="TankWorld.cpp">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2.cpp">
+      <Filter>GameEngine\UserCode\tank\lvl2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3.cpp">
+      <Filter>GameEngine\UserCode\tank\lvl3</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\ActivateFilterType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\CallbackSoundEndedType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\CallbackSoundLoadedType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\CallbackSoundStartedType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\CreatePlaylistType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\DeactivateFilterType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\InitializeScriptType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\InitializeSoundType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\LoadType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\LoadWaveType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\LoopType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\PanType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\PauseType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\PitchType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\PlayType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetCutoffType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetEmitterOrientationType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetEmitterPositionType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetListenerOrientationType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetListenerPositionType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetReverbDensityType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetReverbLevelType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetReverbPredelay.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetReverbPresetType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetReverbSizeType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetReverbTimeType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\StopType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\TerminateFileThreadType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\TerminateSoundEngineType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandTypes\VolumeType.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadVolumeCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadActivateFilterCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadCallbackSoundEndedCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadCallbackSoundLoadedCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadCallbackSoundStartedCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadCreatePlaylistCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadDeactivateFilterCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadInitializeScriptCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadInitializeSoundCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadLoadCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadLoadWaveCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadLoopCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadPanCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadPauseCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadPitchCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadPlayCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadSetCutoffCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadSetEmitterOrientationCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadSetEmitterPositionCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadSetListenerOrientationCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadSetListenerPositionCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadSetReverbDensityCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadSetReverbLevelCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadSetReverbPredelayCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadSetReverbPresetCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadSetReverbSizeCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadSetReverbTimeCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadStopCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadTerminateFileThreadCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\ThreadTerminateSoundEngineCommand.cpp">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine\AudioCommandFactory.cpp">
+      <Filter>SoundEngine\SoundInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="GodCam.cpp">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{1392bc0c-ded2-42a7-9ec1-333be4dadedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW">
+      <UniqueIdentifier>{d22a518f-dd11-48ea-8247-bd82c5928233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\include">
+      <UniqueIdentifier>{f1613e77-99f1-482b-bccf-12b6784f3aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\lib">
+      <UniqueIdentifier>{c350b52d-8efa-4eca-a258-d57d45c43245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6">
+      <UniqueIdentifier>{189a2178-2765-49df-b052-8eca24a60d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6\lib">
+      <UniqueIdentifier>{841af908-0674-4949-8aa0-292e3e84a88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6\include">
+      <UniqueIdentifier>{d2f5d78b-d9cf-4bd9-bd4e-df7522de593c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File">
+      <UniqueIdentifier>{fb44cdb2-f236-4b3b-833e-e9e2c3af59cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\lib">
+      <UniqueIdentifier>{23abe339-ce80-4523-b0f0-23747e3f512f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\include">
+      <UniqueIdentifier>{323b20aa-e08c-4260-84b1-1e85121a9e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math">
+      <UniqueIdentifier>{9fcc2c9b-3e4f-4ab2-a0c5-3099cdf90300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\lib">
+      <UniqueIdentifier>{ea7cbe8f-1aeb-4ad2-bd4e-fa300408bd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\include">
+      <UniqueIdentifier>{5d126765-1977-4213-89fb-e004f6468da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore">
+      <UniqueIdentifier>{d3f91089-c7e6-474d-8376-afd372d35a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore\lib">
+      <UniqueIdentifier>{8a854cfc-9294-4797-b476-0b2feacdd62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore\include">
+      <UniqueIdentifier>{60eabb98-a714-4df4-8fa1-3fb92ea55bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Time">
+      <UniqueIdentifier>{8bd05b22-1808-4f8a-abdc-79d1801c4d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Time\include">
+      <UniqueIdentifier>{a19c2425-a1f6-481c-887b-b0e5ff8f9a76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Time\lib">
+      <UniqueIdentifier>{a7dd701b-c2ec-4488-85aa-3e2113a2f561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine">
+      <UniqueIdentifier>{00398992-b4c2-4215-a92f-4e6e23798f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\ClassDiagrams">
+      <UniqueIdentifier>{a06480a6-bc1c-4794-955a-592be3305690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Compatibility">
+      <UniqueIdentifier>{c3c6c43d-ee27-4737-8153-bfe369f5114a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Management">
+      <UniqueIdentifier>{696f8eb4-ab58-49d6-8168-659e46ac34cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Scripting">
+      <UniqueIdentifier>{cb744fa4-15b4-4fd1-967d-c73d8063c9bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\SoundInterface">
+      <UniqueIdentifier>{948610ef-1afa-48de-8777-d49abaf8d6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Tools">
+      <UniqueIdentifier>{3836a17e-c5c5-4f8f-9e31-b31c3d20646b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Tools\Trace">
+      <UniqueIdentifier>{4d7f2b31-e627-4361-a95c-2fc53bc7ac2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine">
+      <UniqueIdentifier>{aef3393e-06a5-4f08-bf4a-3b6be12d1e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine">
+      <UniqueIdentifier>{eded8e53-ae5b-4c5b-a139-6960ee1b3624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\AssetLoaders">
+      <UniqueIdentifier>{30e0bc03-c141-483d-9c06-507d7ab73177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Helpers">
+      <UniqueIdentifier>{5bc28ff7-83f2-4018-ad3a-51eff626bdcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Managers">
+      <UniqueIdentifier>{c1cfb767-0604-42bb-84ed-e57b1f795432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Managers\KeyboardEvents">
+      <UniqueIdentifier>{30777704-1d80-47ae-b2c6-dcd0fc894a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Managers\TimeManager">
+      <UniqueIdentifier>{fda84e7b-a519-43de-ac3a-97a919871f34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Managers\Collisions">
+      <UniqueIdentifier>{4fdca4d2-a543-466a-b00c-e1b35566b1f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Managers\Camera">
+      <UniqueIdentifier>{5259f169-d054-4336-aa0b-0eba8d6802c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Engine">
+      <UniqueIdentifier>{626f5d52-b6a3-432c-8461-9102c6933685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneManagement">
+      <UniqueIdentifier>{e81577d6-857c-453c-9a63-8fe4bd7f8422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneManagement\Commands">
+      <UniqueIdentifier>{6a5dea48-cf91-4d21-841f-311b60de4184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneManagement\NullScene">
+      <UniqueIdentifier>{8488b873-ae00-42fa-b850-b4dfa419c4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants">
+      <UniqueIdentifier>{e0430376-465a-4e20-98c4-58a12a2e8381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\Command">
+      <UniqueIdentifier>{2394685f-a745-43a5-a6a7-c581db1d4108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\Updatable">
+      <UniqueIdentifier>{a260a469-904e-4ca1-932f-bbe8faede6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\Updatable\Commands">
+      <UniqueIdentifier>{16c8dbf0-f624-4a94-ad5c-69e4758346e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\Drawable">
+      <UniqueIdentifier>{b374d724-1b88-476d-bf6e-b878ac962741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\Drawable\Commands">
+      <UniqueIdentifier>{c11782b2-e87f-4dfd-afde-8f128ea51ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\Alarmable">
+      <UniqueIdentifier>{3017d36a-bac0-4af4-b553-026544a25121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\Alarmable\Commands">
+      <UniqueIdentifier>{9f2d2b6f-1fc9-403f-880e-d630a08cb8f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\Inputable">
+      <UniqueIdentifier>{128e435a-45db-4f58-9689-23ede7f4502e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\Inputable\Commands">
+      <UniqueIdentifier>{47c1b024-40cb-439a-b1da-249e36ebb54a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\GameObjects">
+      <UniqueIdentifier>{15960338-31a5-4926-9b09-7fb72ad0a287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\GameObjects\Commands">
+      <UniqueIdentifier>{b8ee9362-33d6-4484-b40e-4aad2c3b766c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\Collidable">
+      <UniqueIdentifier>{2aaf0f05-9fc4-41d5-85f6-c0cb853b5d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\Collidable\Commands">
+      <UniqueIdentifier>{56559874-da89-4dc6-9220-90eb00ccd95c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\Collidable\Commands\CollisionTest">
+      <UniqueIdentifier>{5a980924-ff36-49b6-bb1b-49c52277a102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\Collidable\Commands\CollidableGroupDelete">
+      <UniqueIdentifier>{fd6d07df-c737-4574-9a51-4a2a4952a7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\Collidable\Commands\SceneRegistration">
+      <UniqueIdentifier>{7dac4d0c-cea1-477a-8b98-8aad45f2f912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Tools">
+      <UniqueIdentifier>{bcfd1629-60e5-4dbe-86e2-28c5d8adba46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Tools\FreezeFrame">
+      <UniqueIdentifier>{b5fd427f-8a7b-4be4-a115-dd2b7e7a86a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Tools\Visualizer">
+      <UniqueIdentifier>{fedd3c96-abce-4b5e-b704-ad775564b3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Tools\MathTools">
+      <UniqueIdentifier>{7a7ee332-51fa-4ce1-b730-45e0c7957ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Tools\Color">
+      <UniqueIdentifier>{fc174e41-9207-406c-b2d2-4577cb9b342a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Collisions">
+      <UniqueIdentifier>{a4ba687b-135b-4086-8610-eed25adcd653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Collisions\CollisionVolumes">
+      <UniqueIdentifier>{ad593b2e-1930-4330-941d-c082376a5476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Collisions\CollisionVolumes\CollisionVolumeBSphere">
+      <UniqueIdentifier>{b026b86d-8ef2-4469-b941-db0d2bbed318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimResources">
+      <UniqueIdentifier>{9de569b7-7067-4557-9d32-df0e0ce72628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\UserCode">
+      <UniqueIdentifier>{73be03cb-410e-4d13-811f-1e273a7b22c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\Diagrams">
+      <UniqueIdentifier>{acda2b4a-ea09-40ee-a659-93e74867eca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\SoundInterface\Game">
+      <UniqueIdentifier>{027a6545-6d1d-488f-8b6e-4f6b7ad550ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\SoundInterface\Sound">
+      <UniqueIdentifier>{932e4904-f9ba-4ee0-bfd2-201b6657f9a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Scripting\Commands">
+      <UniqueIdentifier>{ff6851b1-134b-49cc-ba67-dd24edadaf8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Scripting\Playlist">
+      <UniqueIdentifier>{5aa67d7c-794c-4296-ab54-3fc790b8900e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Tools\Hash">
+      <UniqueIdentifier>{c5848010-7691-465f-86c3-1974a6280620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Tools\Math">
+      <UniqueIdentifier>{f315ceb9-cf61-4234-a1d1-ead6e34d43be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Tools\Threads">
+      <UniqueIdentifier>{58640937-ebc8-4a59-a707-35bde2ce0579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Scripting\Commands\AudioCommands">
+      <UniqueIdentifier>{9c710bcd-fa6b-4f63-9a9f-f0c81edfab89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Scripting\Commands\ThreadCommands">
+      <UniqueIdentifier>{05fa6904-d9d9-4023-aed2-a0b98de27e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Scripting\Commands\CallbackCommands">
+      <UniqueIdentifier>{d6917646-1248-49dc-9bd5-36ba64c5eb61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Scripting\Commands\PlaylistCommands">
+      <UniqueIdentifier>{02203d85-6aeb-48df-8205-f27e2f35996b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\SoundInterface\Game\SoundCall">
+      <UniqueIdentifier>{6b01ac5c-e373-457e-8adc-399bd789050e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\SoundInterface\Game\SoundEngine">
+      <UniqueIdentifier>{a35e432d-d47e-42d3-8d50-8603f3512ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\SoundInterface\Sound\SoundManagement">
+      <UniqueIdentifier>{9f494972-2d55-41ed-a02c-c1929e10701c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestUserSoundCallbackCommands">
+      <UniqueIdentifier>{cd7af3a0-7fbb-47f0-8898-4d0ebaa8ffee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Scripting\Commands\CallbackCommands\SoundEnded">
+      <UniqueIdentifier>{8468d521-d854-4058-b254-69b82d5c8007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Management\BuffMan">
+      <UniqueIdentifier>{218966a5-a9f9-4b88-86a3-dbacd0f66cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Management\Generic">
+      <UniqueIdentifier>{f691cce0-e037-441e-9783-1e3c438852eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Management\VoiceMan">
+      <UniqueIdentifier>{f8704d7a-27f6-443f-9e5f-33d56981af52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Scripting\Commands\ThreadCommands\Playlists">
+      <UniqueIdentifier>{7f9b0fd9-0d51-4c2f-a3f9-b361d370fe96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\SoundInterface\Game\Priority">
+      <UniqueIdentifier>{80993d41-83e8-4192-9709-526ed6bb30d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\SoundInterface\File">
+      <UniqueIdentifier>{47f5ac15-2dee-4234-af3e-0a35d5b069b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Scripting\Commands\PlaylistAudioCommands">
+      <UniqueIdentifier>{a6b452c4-934f-42fb-aa27-278d017729ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Collisions\CollisionVolumes\CollisionVolumeAABB">
+      <UniqueIdentifier>{f410aa23-8161-437b-83ef-4b7b5394f91f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\SoundInterface\Game\SoundCall\Handles">
+      <UniqueIdentifier>{6821c9cd-5ed6-4485-b3bd-e519c1391581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\SoundInterface\Game\flimSound">
+      <UniqueIdentifier>{a72090f8-b8ff-414b-8885-febc1af3f841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Collisions\CollisionVolumes\BoundingBoxBase">
+      <UniqueIdentifier>{e6de1103-9719-4718-9301-7ebffbdd3b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Collisions\CollisionVolumes\OBB">
+      <UniqueIdentifier>{bc798cd9-1878-4e90-acbc-6e6188fe1f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\SoundInterface\Sound\SoundManagement\Sounds">
+      <UniqueIdentifier>{6516d0c5-6ffb-4fe8-a1f4-78676283c487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\SoundInterface\Sound\SoundManagement\AudioMain">
+      <UniqueIdentifier>{91506ca8-fa19-42cd-895c-f3cf882bf406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\SoundInterface\Sound\SoundManagement\Timeline">
+      <UniqueIdentifier>{243b87d8-128d-4a90-b84f-3c186bb226db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\SoundInterface\Sound\SoundManagement\SoundManager">
+      <UniqueIdentifier>{5a1b1b70-4222-4502-a8c0-1077824c1d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\SoundInterface\Game\flimSound\Sound">
+      <UniqueIdentifier>{8c58a660-6c4a-4201-93b1-c311a2225d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\SoundInterface\Game\flimSound\Listener">
+      <UniqueIdentifier>{6d847ca2-4dc0-42d8-ac6e-8acaef0d016b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\UserCode\tank">
+      <UniqueIdentifier>{3dc3a25b-d05b-41e0-b1a9-1da10942f3f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\UserCode\tests">
+      <UniqueIdentifier>{fcb9abe3-ddfb-47d2-8314-03f337248fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\SceneRegistrants\Collidable\Commands\CollidableGroupUpdate">
+      <UniqueIdentifier>{01bf033c-a5d4-4276-96c2-ac0fa6d70905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Collisions\CollisionVolumes\Line">
+      <UniqueIdentifier>{4c354d70-4bc6-4a28-8025-e8c9fd7b5312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\Collisions\CollisionVolumes\Line\OcclusionLine">
+      <UniqueIdentifier>{247fdcc1-e55b-4727-8fde-f56314fd9481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\UserCode\sound tests">
+      <UniqueIdentifier>{5f7cb8d8-6540-420d-b7eb-753960de749a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\AssetLoaders\Terrain">
+      <UniqueIdentifier>{0fcdadbe-2aa1-47da-bfc4-bef9614043a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\FlimEngine\AssetLoaders\Terrain\TerrainCell">
+      <UniqueIdentifier>{bdb05180-d2b0-455e-97fc-50f248af1585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\UserCode\tank\lvl1">
+      <UniqueIdentifier>{72c7a6f7-32e4-4128-9ee0-e37f5c75697b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\UserCode\tank\lvl2">
+      <UniqueIdentifier>{113236a8-106f-447a-af86-49970c364954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\UserCode\tank\lvl3">
+      <UniqueIdentifier>{d31017ee-935d-45e6-93c8-ef7627408337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\UserCode\tank\menu">
+      <UniqueIdentifier>{0b132b94-77e9-43e3-9305-59e3213cb53f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\UserCode\tank\common_elements">
+      <UniqueIdentifier>{e83d4aff-ab7d-44b6-bd2c-45d53dd20ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes">
+      <UniqueIdentifier>{1552b0e2-cc72-4c07-966a-1f84e2b60c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands">
+      <UniqueIdentifier>{45460084-6399-47a6-8f67-f5f708a27f7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dist\GLFW\include\GL\glfw.h">
+      <Filter>_Libs\GLFW\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\arcball.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\object.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6ext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6ktx.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6mfile.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\shader.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\vmath.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\gl3w.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glcorearb.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glxext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\wglext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\File\include\File.h">
+      <Filter>_Libs\File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Align16.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Constants.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Enum.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathEngine.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Matrix.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Util.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Vect.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulCore.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulFileHdr.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulHelper.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Camera.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\DebugOut.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Engine.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GpuVertTypes.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorByPosition.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTexture.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTextureLight.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_Sprite.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_SpriteBox.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureFlat.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureLight.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeAutoColor.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeConstantColor.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Image.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Keyboard.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\LibrarySetup.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Model.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Mouse.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Rect.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\ShaderObject.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Texture.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\TextureTGA.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Quat.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\QuatApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\VectApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\err.h">
+      <Filter>GameEngine\FlimEngine\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\ModelManager.h">
+      <Filter>GameEngine\FlimEngine\AssetLoaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\ShaderManager.h">
+      <Filter>GameEngine\FlimEngine\AssetLoaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\TextureManager.h">
+      <Filter>GameEngine\FlimEngine\AssetLoaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\Flim.h">
+      <Filter>GameEngine\FlimEngine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\Scene.h">
+      <Filter>GameEngine\FlimEngine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\SceneManager.h">
+      <Filter>GameEngine\FlimEngine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\Command.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\Executioner.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\RegState.h">
+      <Filter>GameEngine\FlimEngine\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\Updatable.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Updatable</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\UpdatableManager.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Updatable</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\Drawable.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\DrawableManager.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\Alarmable.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Alarmable</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\AlarmableManager.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Alarmable</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\KeyboardEventManager.h">
+      <Filter>GameEngine\FlimEngine\Managers\KeyboardEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\KeyEvent.h">
+      <Filter>GameEngine\FlimEngine\Managers\KeyboardEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\InputType.h">
+      <Filter>GameEngine\FlimEngine\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\Inputable.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Inputable</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\GameObject.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\TimeManager.h">
+      <Filter>GameEngine\FlimEngine\Managers\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\FreezeTime.h">
+      <Filter>GameEngine\FlimEngine\Tools\FreezeFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\SceneChangeCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneManagement\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\SceneNull.h">
+      <Filter>GameEngine\FlimEngine\SceneManagement\NullScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\SceneUpdateCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneManagement\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\SceneCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneManagement\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\Collidable.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Collidable</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollidableGroup.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Collidable</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollisiontestSelfCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Collidable\Commands\CollisionTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollisionTestPairCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Collidable\Commands\CollisionTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollisionRegistrationCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Collidable\Commands\SceneRegistration</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollisionDeregistrationCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Collidable\Commands\SceneRegistration</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollidableGroupDeleteCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Collidable\Commands\CollidableGroupDelete</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\DrawableDeregCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Drawable\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\DrawableRegCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Drawable\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\GameobjDeregCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\GameObjects\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\GameobjRegCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\GameObjects\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\InputableDeregCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Inputable\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\InputableRegCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Inputable\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\UpdatableDeregCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Updatable\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\UpdatableRegCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Updatable\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\AlarmDeregistrationCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Alarmable\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\AlarmRegistrationCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Alarmable\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\SceneRegistration.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollisionTestCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollidableGroupDelete.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Collidable\Commands\CollidableGroupDelete</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollisionManager.h">
+      <Filter>GameEngine\FlimEngine\Managers\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CameraManager.h">
+      <Filter>GameEngine\FlimEngine\Managers\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollisionVolume.h">
+      <Filter>GameEngine\FlimEngine\Collisions\CollisionVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollisionVolumeBSphere.h">
+      <Filter>GameEngine\FlimEngine\Collisions\CollisionVolumes\CollisionVolumeBSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\Visualizer.h">
+      <Filter>GameEngine\FlimEngine\Tools\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\MathTools.h">
+      <Filter>GameEngine\FlimEngine\Tools\MathTools</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\FlimColor.h">
+      <Filter>GameEngine\FlimEngine\Tools\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\RenderBSphereCommand.h">
+      <Filter>GameEngine\FlimEngine\Tools\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AutoXA2Include.h">
+      <Filter>SoundEngine\Compatibility</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\Trace\Trace.h">
+      <Filter>SoundEngine\Tools\Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="vcsversion.h">
+      <Filter>SoundEngine\Compatibility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Time\include\Time.h">
+      <Filter>_Libs\Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Time\include\Timer.h">
+      <Filter>_Libs\Time\include</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\Command.h">
+      <Filter>SoundEngine\Scripting\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\Playlist.h">
+      <Filter>SoundEngine\Scripting\Playlist</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PlaylistFactory.h">
+      <Filter>SoundEngine\Scripting\Playlist</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PlaylistManager.h">
+      <Filter>SoundEngine\Scripting\Playlist</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\HashThis.h">
+      <Filter>SoundEngine\Tools\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\md5.h">
+      <Filter>SoundEngine\Tools\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\sndmathtools.h">
+      <Filter>SoundEngine\Tools\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadHelper.h">
+      <Filter>SoundEngine\Tools\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\WindowsWrapper.h">
+      <Filter>SoundEngine\Tools\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AssignCallbackCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\AudioCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\AudioCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\CallbackCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\CallbackCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\LoopCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\AudioCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PanCmd.h">
+      <Filter>SoundEngine\Scripting\Commands\AudioCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PitchCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\AudioCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PlayCmd.h">
+      <Filter>SoundEngine\Scripting\Commands\AudioCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PlaylistAddCallbackCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PlaylistAddCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PlaylistAddSoundCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PlaylistInitCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadCommunicationCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\TransitionOnEnd.h">
+      <Filter>SoundEngine\Scripting\Commands\AudioCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\VolumeCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\AudioCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadCommands.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\SoundCallRegistry.h">
+      <Filter>SoundEngine\SoundInterface\Game\SoundCall</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\SoundCall.h">
+      <Filter>SoundEngine\SoundInterface\Game\SoundCall</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\Handle.h">
+      <Filter>SoundEngine\SoundInterface\Game\SoundCall\Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\HandleManager.h">
+      <Filter>SoundEngine\SoundInterface\Game\SoundCall\Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\CircularData.h">
+      <Filter>SoundEngine\SoundInterface\Game\SoundEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\CircularIndex.h">
+      <Filter>SoundEngine\SoundInterface\Game\SoundEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\SoundEngine.h">
+      <Filter>SoundEngine\SoundInterface\Game\SoundEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ShipGrowCommand.h">
+      <Filter>TestUserSoundCallbackCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\InternalSoundEnded.h">
+      <Filter>SoundEngine\Scripting\Commands\CallbackCommands\SoundEnded</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\snd_err.h">
+      <Filter>SoundEngine\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\BufferManager.h">
+      <Filter>SoundEngine\Management\BuffMan</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\BufferNode.h">
+      <Filter>SoundEngine\Management\BuffMan</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\List.h">
+      <Filter>SoundEngine\Management\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\Manager.h">
+      <Filter>SoundEngine\Management\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\Node.h">
+      <Filter>SoundEngine\Management\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\SndExecutioner.h">
+      <Filter>SoundEngine\Scripting\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\VoiceManager.h">
+      <Filter>SoundEngine\Management\VoiceMan</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\VoiceFactory.h">
+      <Filter>SoundEngine\Management\VoiceMan</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\CallbackManager.h">
+      <Filter>SoundEngine\Management\VoiceMan</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\TerminateSoundEngineCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\CallbackSoundEndedCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\Playlists</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\StartPlaylistCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\Playlists</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PriorityManager.h">
+      <Filter>SoundEngine\SoundInterface\Game\Priority</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioFileMain.h">
+      <Filter>SoundEngine\SoundInterface\File</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\FileThreadCommand.h">
+      <Filter>SoundEngine\SoundInterface\File</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PlaylistVolumeCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistAudioCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PlaylistPanCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistAudioCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PlaylistStopCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistAudioCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PlaylistPauseCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistAudioCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PlaylistPlayCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistAudioCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PlaylistPitchCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistAudioCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PlaylistPrintDuration.h">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistAudioCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\MarkForPlayCommand.h">
+      <Filter>SoundEngine\SoundInterface\Game\Priority</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\SoundCallPrintDurationCommand.h">
+      <Filter>SoundEngine\SoundInterface\Game\SoundCall</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PrintPriorityCommand.h">
+      <Filter>SoundEngine\SoundInterface\Game\Priority</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\MarkForStopCommand.h">
+      <Filter>SoundEngine\SoundInterface\Game\Priority</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PrintSoundCommand.h">
+      <Filter>SoundEngine\SoundInterface\Game\SoundCall</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\ImageManager.h">
+      <Filter>GameEngine\FlimEngine\AssetLoaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\FlimSprite.h">
+      <Filter>GameEngine\FlimEngine\AssetLoaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollisionVolumeAABB.h">
+      <Filter>GameEngine\FlimEngine\Collisions\CollisionVolumes\CollisionVolumeAABB</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\RenderAABBCommand.h">
+      <Filter>GameEngine\FlimEngine\Tools\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\IndividualSoundEnded.h">
+      <Filter>SoundEngine\Scripting\Commands\CallbackCommands\SoundEnded</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PlaylistLoopCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\PlaylistAudioCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollisionVolumeBoundingBoxBase.h">
+      <Filter>GameEngine\FlimEngine\Collisions\CollisionVolumes\BoundingBoxBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollisionVolumeOBB.h">
+      <Filter>GameEngine\FlimEngine\Collisions\CollisionVolumes\OBB</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\RenderBoxCommand.h">
+      <Filter>GameEngine\FlimEngine\Tools\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\Channel.h">
+      <Filter>SoundEngine\SoundInterface\Sound\SoundManagement\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\Sound.h">
+      <Filter>SoundEngine\SoundInterface\Sound\SoundManagement\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\SoundList.h">
+      <Filter>SoundEngine\SoundInterface\Sound\SoundManagement\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\SoundNode.h">
+      <Filter>SoundEngine\SoundInterface\Sound\SoundManagement\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioMain.h">
+      <Filter>SoundEngine\SoundInterface\Sound\SoundManagement\AudioMain</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\Timeline.h">
+      <Filter>SoundEngine\SoundInterface\Sound\SoundManagement\Timeline</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\SoundManager.h">
+      <Filter>SoundEngine\SoundInterface\Sound\SoundManagement\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\SoundManager3D.h">
+      <Filter>SoundEngine\SoundInterface\Sound\SoundManagement\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\flimFilter.h">
+      <Filter>SoundEngine\SoundInterface\Game\flimSound\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\flimReverb.h">
+      <Filter>SoundEngine\SoundInterface\Game\flimSound\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\flimSound.h">
+      <Filter>SoundEngine\SoundInterface\Game\flimSound\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\FlimListener.h">
+      <Filter>SoundEngine\SoundInterface\Game\flimSound\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Cottage.h">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyTank.h">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Frigate.h">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="FrigateFactory.h">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneDemo.h">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTest.h">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="SpacePlane.h">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Tester.h">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="UserCallbacks.h">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldPlane.h">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollidableGroupUpdateCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Collidable\Commands\CollidableGroupUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollisionUpdateCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Collidable\Commands\CollidableGroupUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\Terrain.h">
+      <Filter>GameEngine\FlimEngine\AssetLoaders\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollisionVolumeLine.h">
+      <Filter>GameEngine\FlimEngine\Collisions\CollisionVolumes\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollisionVolumeOcclusionLine.h">
+      <Filter>GameEngine\FlimEngine\Collisions\CollisionVolumes\Line\OcclusionLine</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\SoundTest.h">
+      <Filter>GameEngine\UserCode\sound tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\OcclusionScene.h">
+      <Filter>GameEngine\UserCode\sound tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\SceneDeregistrationCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Collidable\Commands\SceneRegistration</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\TerrainManager.h">
+      <Filter>GameEngine\FlimEngine\AssetLoaders\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\TerrainCellRange.h">
+      <Filter>GameEngine\FlimEngine\AssetLoaders\Terrain\TerrainCell</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\TerrainCell.h">
+      <Filter>GameEngine\FlimEngine\AssetLoaders\Terrain\TerrainCell</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\TerrainCellIter.h">
+      <Filter>GameEngine\FlimEngine\AssetLoaders\Terrain\TerrainCell</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\CollisionTestTerrainCommand.h">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Collidable\Commands\CollisionTest</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>GameEngine\UserCode\tank\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>GameEngine\UserCode\tank\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="TankScene.h">
+      <Filter>GameEngine\UserCode\tank\lvl1</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletFactory.h">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFactory.h">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionFactory.h">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="FiredBy.h">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Minimap.h">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Sentry.h">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="TankWorld.h">
+      <Filter>GameEngine\UserCode\tank\common_elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Level2.h">
+      <Filter>GameEngine\UserCode\tank\lvl2</Filter>
+    </ClInclude>
+    <ClInclude Include="Level3.h">
+      <Filter>GameEngine\UserCode\tank\lvl3</Filter>
+    </ClInclude>
+    <ClInclude Include="Flim\doxygenData.h">
+      <Filter>GameEngine\Diagrams</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioThreadCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadPlayCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadActivateFilterCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadCallbackSoundEndedCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadCallbackSoundLoadedCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadCallbackSoundStartedCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadCreatePlaylistCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadDeactivateFilterCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadInitializeScriptCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadInitializeSoundCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadLoadCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadLoadWaveCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadLoopCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadPanCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadPauseCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadPitchCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadSetCutoffCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadSetEmitterOrientationCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadSetEmitterPositionCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadSetListenerOrientationCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadSetListenerPositionCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadSetReverbDensityCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadSetReverbLevelCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadSetReverbPredelayCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadSetReverbPresetCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadSetReverbSizeCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadSetReverbTimeCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadStopCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadTerminateFileThreadCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadTerminateSoundEngineCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\ThreadVolumeCommand.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioThreadCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\PlayType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\ActivateFilterType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\CallbackSoundEndedType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\CallbackSoundLoadedType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\CallbackSoundStartedType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\CreatePlaylistType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\DeactivateFilterType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\InitializeScriptType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\InitializeSoundType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\LoadType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\LoadWaveType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\LoopType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\PanType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\PauseType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\PitchType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetCutoffType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetEmitterOrientationType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetEmitterPositionType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetListenerOrientationType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetListenerPositionType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetReverbDensityType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetReverbLevelType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetReverbPredelay.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetReverbPresetType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetReverbSizeType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetReverbTimeType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\StopType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\TerminateFileThreadType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\TerminateSoundEngineType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandTypes\VolumeType.h">
+      <Filter>SoundEngine\Scripting\Commands\ThreadCommands\AudioCommandTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine\AudioCommandFactory.h">
+      <Filter>SoundEngine\SoundInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GodCam.h">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib">
+      <Filter>_Libs\GLFW\lib</Filter>
+    </Library>
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib">
+      <Filter>_Libs\SB6\lib</Filter>
+    </Library>
+    <Library Include="..\dist\File\lib\File_Debug.lib">
+      <Filter>_Libs\File\lib</Filter>
+    </Library>
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib">
+      <Filter>_Libs\Math\lib</Filter>
+    </Library>
+    <Library Include="..\dist\AzulCore\lib\AzulCore_Debug.lib">
+      <Filter>_Libs\AzulCore\lib</Filter>
+    </Library>
+    <Library Include="..\dist\Time\lib\TimeDebug.lib">
+      <Filter>_Libs\Time\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ables.cd">
+      <Filter>GameEngine\Diagrams</Filter>
+    </None>
+    <None Include="Flim\CollisionSystem.cd">
+      <Filter>GameEngine\Diagrams</Filter>
+    </None>
+    <None Include="SoundEngine\BufferManager.cd">
+      <Filter>SoundEngine\ClassDiagrams</Filter>
+    </None>
+    <None Include="SoundEngine\VoiceManager.cd">
+      <Filter>SoundEngine\ClassDiagrams</Filter>
+    </None>
+    <None Include="SoundEngine\version.bat">
+      <Filter>SoundEngine\Compatibility</Filter>
+    </None>
+    <None Include="SoundEngine\AudioSystem.cd">
+      <Filter>SoundEngine\ClassDiagrams</Filter>
+    </None>
+    <None Include="Alarms.cd">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </None>
+    <None Include="ClassDiagram.cd">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </None>
+    <None Include="Collision.cd">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </None>
+    <None Include="KeyboardInput.cd">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </None>
+    <None Include="Sprites.cd">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </None>
+    <None Include="UpdateAndDraw.cd">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </None>
+    <None Include="Visualizer.cd">
+      <Filter>GameEngine\UserCode\tests</Filter>
+    </None>
+    <None Include="3DAudio.cd">
+      <Filter>GameEngine\UserCode\tank</Filter>
+    </None>
+    <None Include="Effects.cd">
+      <Filter>SoundEngine\SoundInterface\Game\flimSound\Sound</Filter>
+    </None>
+    <None Include="CollisionSystem_spring.cd">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Collidable</Filter>
+    </None>
+    <None Include="CollisionVolumes.cd">
+      <Filter>GameEngine\FlimEngine\SceneRegistrants\Collidable</Filter>
+    </None>
+    <None Include="Terrain.cd">
+      <Filter>GameEngine\FlimEngine\AssetLoaders\Terrain</Filter>
+    </None>
+  </ItemGroup>
+</Project>

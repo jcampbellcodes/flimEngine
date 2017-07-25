@@ -4,6 +4,8 @@
 #include "..\AudioThreadCommand.h"
 #include "..\AudioCommandType.h"
 
+class ThreadActivateFilterCommand;
+
 class ActivateFilterType : public AudioCommandType
 {
 public:

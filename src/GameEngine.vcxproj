@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3167A812-5D2C-4EE9-ACFD-F0E959384755}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>spinnycube</RootNamespace>
+    <ProjectName>GameEngine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(WindowsSDK_IncludePath);..\..\dxJun2010\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(SolutionDir)dxJun2010\Lib\x86;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <GenerateManifest>false</GenerateManifest>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(ProjectName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)dist\Math\include;$(SolutionDir)dist\SB6\include;$(SolutionDir)dist\GLFW\include;$(SolutionDir)dist\File\include;$(SolutionDir)dist\AzulCore\include;$(SolutionDir)dist\Time\include;$(SolutionDir)dxJun2010\Include</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SDLCheck>
+      </SDLCheck>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <EnableParallelCodeGeneration>false</EnableParallelCodeGeneration>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <OpenMPSupport>false</OpenMPSupport>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD.lib</IgnoreSpecificDefaultLibraries>
+      <ShowProgress>NotSet</ShowProgress>
+      <LinkStatus>
+      </LinkStatus>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>call "$(ProjectDir)SoundEngine\version.bat"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="BulletFactory.cpp" />
+    <ClCompile Include="Cottage.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyFactory.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="ExplosionFactory.cpp" />
+    <ClCompile Include="Flim\Alarmable.cpp" />
+    <ClCompile Include="Flim\AlarmableManager.cpp" />
+    <ClCompile Include="Flim\AlarmDeregistrationCommand.cpp" />
+    <ClCompile Include="Flim\AlarmRegistrationCommand.cpp" />
+    <ClCompile Include="Flim\CameraManager.cpp" />
+    <ClCompile Include="Flim\Collidable.cpp" />
+    <ClCompile Include="Flim\CollisionManager.cpp" />
+    <ClCompile Include="Flim\CollisionVolumeAABB.cpp" />
+    <ClCompile Include="Flim\CollisionVolumeBSphere.cpp" />
+    <ClCompile Include="Flim\CollisionVolumeOBB.cpp" />
+    <ClCompile Include="Flim\CollisionVolumeOcclusionLine.cpp" />
+    <ClCompile Include="Flim\Drawable.cpp" />
+    <ClCompile Include="Flim\DrawableDeregCommand.cpp" />
+    <ClCompile Include="Flim\DrawableManager.cpp" />
+    <ClCompile Include="Flim\DrawableRegCommand.cpp" />
+    <ClCompile Include="Flim\Executioner.cpp" />
+    <ClCompile Include="Flim\Flim.cpp" />
+    <ClCompile Include="Flim\FlimColor.cpp" />
+    <ClCompile Include="Flim\FlimSprite.cpp" />
+    <ClCompile Include="Flim\FreezeTime.cpp" />
+    <ClCompile Include="Flim\GameInitialize.cpp" />
+    <ClCompile Include="Flim\GameobjDeregCommand.cpp" />
+    <ClCompile Include="Flim\GameObject.cpp" />
+    <ClCompile Include="Flim\GameobjRegCommand.cpp" />
+    <ClCompile Include="Flim\GameTerminate.cpp" />
+    <ClCompile Include="Flim\ImageManager.cpp" />
+    <ClCompile Include="Flim\Inputable.cpp" />
+    <ClCompile Include="Flim\InputableDeregCommand.cpp" />
+    <ClCompile Include="Flim\InputableRegCommand.cpp" />
+    <ClCompile Include="Flim\KeyboardEventManager.cpp" />
+    <ClCompile Include="Flim\KeyEvent.cpp" />
+    <ClCompile Include="Flim\LoadResources.cpp" />
+    <ClCompile Include="Flim\main.cpp" />
+    <ClCompile Include="Flim\MathTools.cpp" />
+    <ClCompile Include="Flim\ModelManager.cpp" />
+    <ClCompile Include="Flim\OcclusionScene.cpp" />
+    <ClCompile Include="Flim\RenderAABBCommand.cpp" />
+    <ClCompile Include="Flim\RenderBoxCommand.cpp" />
+    <ClCompile Include="Flim\RenderBSphereCommand.cpp" />
+    <ClCompile Include="Flim\Scene.cpp" />
+    <ClCompile Include="Flim\SceneChangeCommand.cpp" />
+    <ClCompile Include="Flim\SceneManager.cpp" />
+    <ClCompile Include="Flim\SceneUpdateCommand.cpp" />
+    <ClCompile Include="Flim\ShaderManager.cpp" />
+    <ClCompile Include="Flim\SoundTest.cpp" />
+    <ClCompile Include="Flim\Terrain.cpp" />
+    <ClCompile Include="Flim\TerrainCell.cpp" />
+    <ClCompile Include="Flim\TerrainCellIter.cpp" />
+    <ClCompile Include="Flim\TerrainCellRange.cpp" />
+    <ClCompile Include="Flim\TerrainManager.cpp" />
+    <ClCompile Include="Flim\TextureManager.cpp" />
+    <ClCompile Include="Flim\TimeManager.cpp" />
+    <ClCompile Include="Flim\Updatable.cpp" />
+    <ClCompile Include="Flim\UpdatableDeregCommand.cpp" />
+    <ClCompile Include="Flim\UpdatableManager.cpp" />
+    <ClCompile Include="Flim\UpdatableRegCommand.cpp" />
+    <ClCompile Include="Flim\Visualizer.cpp" />
+    <ClCompile Include="Frigate.cpp" />
+    <ClCompile Include="FrigateFactory.cpp" />
+    <ClCompile Include="GodCam.cpp" />
+    <ClCompile Include="HUD.cpp" />
+    <ClCompile Include="IntroScene.cpp" />
+    <ClCompile Include="Level2.cpp" />
+    <ClCompile Include="Level3.cpp" />
+    <ClCompile Include="Logo.cpp" />
+    <ClCompile Include="Minimap.cpp" />
+    <ClCompile Include="SceneDemo.cpp" />
+    <ClCompile Include="SceneTest.cpp" />
+    <ClCompile Include="Sentry.cpp" />
+    <ClCompile Include="SoundEngine\AssignCallbackCommand.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommand.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandFactory.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\ActivateFilterType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\CallbackSoundEndedType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\CallbackSoundLoadedType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\CallbackSoundStartedType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\CreatePlaylistType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\DeactivateFilterType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\InitializeScriptType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\InitializeSoundType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\LoadType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\LoadWaveType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\LoopType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\PanType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\PauseType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\PitchType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetCutoffType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetEmitterOrientationType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetEmitterPositionType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetListenerOrientationType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetListenerPositionType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetReverbDensityType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetReverbLevelType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetReverbPredelay.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetReverbPresetType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetReverbSizeType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\SetReverbTimeType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\StopType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\TerminateFileThreadType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\TerminateSoundEngineType.cpp" />
+    <ClCompile Include="SoundEngine\AudioCommandTypes\VolumeType.cpp" />
+    <ClCompile Include="SoundEngine\AudioFileMain.cpp" />
+    <ClCompile Include="SoundEngine\AudioMain.cpp" />
+    <ClCompile Include="SoundEngine\BufferManager.cpp" />
+    <ClCompile Include="SoundEngine\BufferNode.cpp" />
+    <ClCompile Include="SoundEngine\CallbackCommand.cpp" />
+    <ClCompile Include="SoundEngine\CallbackManager.cpp" />
+    <ClCompile Include="SoundEngine\CallbackSoundEndedCommand.cpp" />
+    <ClCompile Include="SoundEngine\Channel.cpp" />
+    <ClCompile Include="SoundEngine\CircularData.cpp" />
+    <ClCompile Include="SoundEngine\flimFilter.cpp" />
+    <ClCompile Include="SoundEngine\FlimListener.cpp" />
+    <ClCompile Include="SoundEngine\flimReverb.cpp" />
+    <ClCompile Include="SoundEngine\flimSound.cpp" />
+    <ClCompile Include="SoundEngine\IndividualSoundEnded.cpp" />
+    <ClCompile Include="SoundEngine\InternalSoundEnded.cpp" />
+    <ClCompile Include="SoundEngine\MarkForPlayCommand.cpp" />
+    <ClCompile Include="SoundEngine\MarkForStopCommand.cpp" />
+    <ClCompile Include="SoundEngine\PlaylistLoopCommand.cpp" />
+    <ClCompile Include="SoundEngine\PlaylistPanCommand.cpp" />
+    <ClCompile Include="SoundEngine\PlaylistPauseCommand.cpp" />
+    <ClCompile Include="SoundEngine\PlaylistPitchCommand.cpp" />
+    <ClCompile Include="SoundEngine\PlaylistPlayCommand.cpp" />
+    <ClCompile Include="SoundEngine\PlaylistStopCommand.cpp" />
+    <ClCompile Include="SoundEngine\PlaylistVolumeCommand.cpp" />
+    <ClCompile Include="SoundEngine\PlayType.cpp" />
+    <ClCompile Include="SoundEngine\PrintPriorityCommand.cpp" />
+    <ClCompile Include="SoundEngine\PrintSoundCommand.cpp" />
+    <ClCompile Include="SoundEngine\PriorityManager.cpp" />
+    <ClCompile Include="SoundEngine\ShipGrowCommand.cpp" />
+    <ClCompile Include="SoundEngine\SndExecutioner.cpp" />
+    <ClCompile Include="SoundEngine\Handle.cpp" />
+    <ClCompile Include="SoundEngine\HandleManager.cpp" />
+    <ClCompile Include="SoundEngine\HashThis.cpp" />
+    <ClCompile Include="SoundEngine\List.cpp" />
+    <ClCompile Include="SoundEngine\LoopCommand.cpp" />
+    <ClCompile Include="SoundEngine\sndmathtools.cpp" />
+    <ClCompile Include="SoundEngine\md5.cpp" />
+    <ClCompile Include="SoundEngine\Node.cpp" />
+    <ClCompile Include="SoundEngine\PanCmd.cpp" />
+    <ClCompile Include="SoundEngine\PitchCommand.cpp" />
+    <ClCompile Include="SoundEngine\PlayCmd.cpp" />
+    <ClCompile Include="SoundEngine\Playlist.cpp" />
+    <ClCompile Include="SoundEngine\PlaylistAddCallbackCommand.cpp" />
+    <ClCompile Include="SoundEngine\PlaylistAddCommand.cpp" />
+    <ClCompile Include="SoundEngine\PlaylistAddSoundCommand.cpp" />
+    <ClCompile Include="SoundEngine\PlaylistFactory.cpp" />
+    <ClCompile Include="SoundEngine\PlaylistManager.cpp" />
+    <ClCompile Include="SoundEngine\Sound.cpp" />
+    <ClCompile Include="SoundEngine\SoundCall.cpp" />
+    <ClCompile Include="SoundEngine\SoundCallPrintDurationCommand.cpp" />
+    <ClCompile Include="SoundEngine\SoundEngine.cpp" />
+    <ClCompile Include="SoundEngine\SoundList.cpp" />
+    <ClCompile Include="SoundEngine\SoundManager.cpp" />
+    <ClCompile Include="SoundEngine\SoundManager3D.cpp" />
+    <ClCompile Include="SoundEngine\SoundNode.cpp" />
+    <ClCompile Include="SoundEngine\StartPlaylistCommand.cpp" />
+    <ClCompile Include="SoundEngine\TerminateSoundEngineCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadActivateFilterCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadCallbackSoundEndedCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadCallbackSoundLoadedCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadCallbackSoundStartedCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadCreatePlaylistCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadDeactivateFilterCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadHelper.cpp" />
+    <ClCompile Include="SoundEngine\ThreadInitializeScriptCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadInitializeSoundCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadLoadCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadLoadWaveCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadLoopCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadPanCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadPauseCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadPitchCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadPlayCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadSetCutoffCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadSetEmitterOrientationCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadSetEmitterPositionCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadSetListenerOrientationCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadSetListenerPositionCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadSetReverbDensityCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadSetReverbLevelCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadSetReverbPredelayCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadSetReverbPresetCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadSetReverbSizeCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadSetReverbTimeCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadStopCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadTerminateFileThreadCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadTerminateSoundEngineCommand.cpp" />
+    <ClCompile Include="SoundEngine\ThreadVolumeCommand.cpp" />
+    <ClCompile Include="SoundEngine\Timeline.cpp" />
+    <ClCompile Include="SoundEngine\Trace\Trace.cpp" />
+    <ClCompile Include="SoundEngine\TransitionOnEnd.cpp" />
+    <ClCompile Include="SoundEngine\VoiceFactory.cpp" />
+    <ClCompile Include="SoundEngine\VoiceManager.cpp" />
+    <ClCompile Include="SoundEngine\VolumeCommand.cpp" />
+    <ClCompile Include="SpacePlane.cpp" />
+    <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="TankScene.cpp" />
+    <ClCompile Include="TankWorld.cpp" />
+    <ClCompile Include="WorldPlane.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dist\AzulCore\include\AzulCore.h" />
+    <ClInclude Include="..\dist\AzulCore\include\AzulFileHdr.h" />
+    <ClInclude Include="..\dist\AzulCore\include\AzulHelper.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Camera.h" />
+    <ClInclude Include="..\dist\AzulCore\include\DebugOut.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Engine.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GpuVertTypes.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorByPosition.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTexture.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTextureLight.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_Sprite.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_SpriteBox.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureFlat.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureLight.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeAutoColor.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeConstantColor.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Image.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Keyboard.h" />
+    <ClInclude Include="..\dist\AzulCore\include\LibrarySetup.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Model.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Mouse.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Rect.h" />
+    <ClInclude Include="..\dist\AzulCore\include\ShaderObject.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Texture.h" />
+    <ClInclude Include="..\dist\AzulCore\include\TextureTGA.h" />
+    <ClInclude Include="..\dist\File\include\File.h" />
+    <ClInclude Include="..\dist\GLFW\include\GL\glfw.h" />
+    <ClInclude Include="..\dist\Math\include\Align16.h" />
+    <ClInclude Include="..\dist\Math\include\Constants.h" />
+    <ClInclude Include="..\dist\Math\include\Enum.h" />
+    <ClInclude Include="..\dist\Math\include\MathApp.h" />
+    <ClInclude Include="..\dist\Math\include\MathEngine.h" />
+    <ClInclude Include="..\dist\Math\include\Matrix.h" />
+    <ClInclude Include="..\dist\Math\include\Quat.h" />
+    <ClInclude Include="..\dist\Math\include\QuatApp.h" />
+    <ClInclude Include="..\dist\Math\include\Util.h" />
+    <ClInclude Include="..\dist\Math\include\Vect.h" />
+    <ClInclude Include="..\dist\Math\include\VectApp.h" />
+    <ClInclude Include="..\dist\SB6\include\arcball.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\gl3w.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\glcorearb.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\glext.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\glxext.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\wglext.h" />
+    <ClInclude Include="..\dist\SB6\include\object.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6ext.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6ktx.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6mfile.h" />
+    <ClInclude Include="..\dist\SB6\include\shader.h" />
+    <ClInclude Include="..\dist\SB6\include\vmath.h" />
+    <ClInclude Include="..\dist\Time\include\Time.h" />
+    <ClInclude Include="..\dist\Time\include\Timer.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletFactory.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="Cottage.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyFactory.h" />
+    <ClInclude Include="EnemyTank.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="ExplosionFactory.h" />
+    <ClInclude Include="FiredBy.h" />
+    <ClInclude Include="Flim\Alarmable.h" />
+    <ClInclude Include="Flim\AlarmableManager.h" />
+    <ClInclude Include="Flim\AlarmDeregistrationCommand.h" />
+    <ClInclude Include="Flim\AlarmRegistrationCommand.h" />
+    <ClInclude Include="Flim\CameraManager.h" />
+    <ClInclude Include="Flim\Collidable.h" />
+    <ClInclude Include="Flim\CollidableGroup.h" />
+    <ClInclude Include="Flim\CollidableGroupDelete.h" />
+    <ClInclude Include="Flim\CollidableGroupDeleteCommand.h" />
+    <ClInclude Include="Flim\CollidableGroupUpdateCommand.h" />
+    <ClInclude Include="Flim\CollisionDeregistrationCommand.h" />
+    <ClInclude Include="Flim\CollisionManager.h" />
+    <ClInclude Include="Flim\CollisionRegistrationCommand.h" />
+    <ClInclude Include="Flim\CollisionTestCommand.h" />
+    <ClInclude Include="Flim\CollisionTestPairCommand.h" />
+    <ClInclude Include="Flim\CollisiontestSelfCommand.h" />
+    <ClInclude Include="Flim\CollisionTestTerrainCommand.h" />
+    <ClInclude Include="Flim\CollisionUpdateCommand.h" />
+    <ClInclude Include="Flim\CollisionVolume.h" />
+    <ClInclude Include="Flim\CollisionVolumeAABB.h" />
+    <ClInclude Include="Flim\CollisionVolumeBoundingBoxBase.h" />
+    <ClInclude Include="Flim\CollisionVolumeBSphere.h" />
+    <ClInclude Include="Flim\CollisionVolumeLine.h" />
+    <ClInclude Include="Flim\CollisionVolumeOBB.h" />
+    <ClInclude Include="Flim\CollisionVolumeOcclusionLine.h" />
+    <ClInclude Include="Flim\Command.h" />
+    <ClInclude Include="Flim\doxygenData.h" />
+    <ClInclude Include="Flim\Drawable.h" />
+    <ClInclude Include="Flim\DrawableDeregCommand.h" />
+    <ClInclude Include="Flim\DrawableManager.h" />
+    <ClInclude Include="Flim\DrawableRegCommand.h" />
+    <ClInclude Include="Flim\err.h" />
+    <ClInclude Include="Flim\Executioner.h" />
+    <ClInclude Include="Flim\Flim.h" />
+    <ClInclude Include="Flim\FlimColor.h" />
+    <ClInclude Include="Flim\FlimSprite.h" />
+    <ClInclude Include="Flim\FreezeTime.h" />
+    <ClInclude Include="Flim\GameobjDeregCommand.h" />
+    <ClInclude Include="Flim\GameObject.h" />
+    <ClInclude Include="Flim\GameobjRegCommand.h" />
+    <ClInclude Include="Flim\ImageManager.h" />
+    <ClInclude Include="Flim\Inputable.h" />
+    <ClInclude Include="Flim\InputableDeregCommand.h" />
+    <ClInclude Include="Flim\InputableRegCommand.h" />
+    <ClInclude Include="Flim\InputType.h" />
+    <ClInclude Include="Flim\KeyboardEventManager.h" />
+    <ClInclude Include="Flim\KeyEvent.h" />
+    <ClInclude Include="Flim\MathTools.h" />
+    <ClInclude Include="Flim\ModelManager.h" />
+    <ClInclude Include="Flim\OcclusionScene.h" />
+    <ClInclude Include="Flim\RegState.h" />
+    <ClInclude Include="Flim\RenderAABBCommand.h" />
+    <ClInclude Include="Flim\RenderBoxCommand.h" />
+    <ClInclude Include="Flim\RenderBSphereCommand.h" />
+    <ClInclude Include="Flim\Scene.h" />
+    <ClInclude Include="Flim\SceneChangeCommand.h" />
+    <ClInclude Include="Flim\SceneCommand.h" />
+    <ClInclude Include="Flim\SceneDeregistrationCommand.h" />
+    <ClInclude Include="Flim\SceneManager.h" />
+    <ClInclude Include="Flim\SceneNull.h" />
+    <ClInclude Include="Flim\SceneRegistration.h" />
+    <ClInclude Include="Flim\SceneUpdateCommand.h" />
+    <ClInclude Include="Flim\ShaderManager.h" />
+    <ClInclude Include="Flim\SoundTest.h" />
+    <ClInclude Include="Flim\Terrain.h" />
+    <ClInclude Include="Flim\TerrainCell.h" />
+    <ClInclude Include="Flim\TerrainCellIter.h" />
+    <ClInclude Include="Flim\TerrainCellRange.h" />
+    <ClInclude Include="Flim\TerrainManager.h" />
+    <ClInclude Include="Flim\TextureManager.h" />
+    <ClInclude Include="Flim\TimeManager.h" />
+    <ClInclude Include="Flim\Updatable.h" />
+    <ClInclude Include="Flim\UpdatableDeregCommand.h" />
+    <ClInclude Include="Flim\UpdatableRegCommand.h" />
+    <ClInclude Include="Flim\UpdatableManager.h" />
+    <ClInclude Include="Flim\Visualizer.h" />
+    <ClInclude Include="Frigate.h" />
+    <ClInclude Include="FrigateFactory.h" />
+    <ClInclude Include="GodCam.h" />
+    <ClInclude Include="HUD.h" />
+    <ClInclude Include="IntroScene.h" />
+    <ClInclude Include="Level2.h" />
+    <ClInclude Include="Level3.h" />
+    <ClInclude Include="Logo.h" />
+    <ClInclude Include="Minimap.h" />
+    <ClInclude Include="SceneDemo.h" />
+    <ClInclude Include="SceneTest.h" />
+    <ClInclude Include="Sentry.h" />
+    <ClInclude Include="SoundEngine\AssignCallbackCommand.h" />
+    <ClInclude Include="SoundEngine\AudioCommand.h" />
+    <ClInclude Include="SoundEngine\AudioCommandFactory.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\ActivateFilterType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\CallbackSoundEndedType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\CallbackSoundLoadedType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\CallbackSoundStartedType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\CreatePlaylistType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\DeactivateFilterType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\InitializeScriptType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\InitializeSoundType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\LoadType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\LoadWaveType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\LoopType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\PanType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\PauseType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\PitchType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetCutoffType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetEmitterOrientationType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetEmitterPositionType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetListenerOrientationType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetListenerPositionType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetReverbDensityType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetReverbLevelType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetReverbPredelay.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetReverbPresetType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetReverbSizeType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\SetReverbTimeType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\StopType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\TerminateFileThreadType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\TerminateSoundEngineType.h" />
+    <ClInclude Include="SoundEngine\AudioCommandTypes\VolumeType.h" />
+    <ClInclude Include="SoundEngine\AudioFileMain.h" />
+    <ClInclude Include="SoundEngine\AudioMain.h" />
+    <ClInclude Include="SoundEngine\AudioThreadCommand.h" />
+    <ClInclude Include="SoundEngine\AudioCommandType.h" />
+    <ClInclude Include="SoundEngine\AutoXA2Include.h" />
+    <ClInclude Include="SoundEngine\BufferManager.h" />
+    <ClInclude Include="SoundEngine\BufferNode.h" />
+    <ClInclude Include="SoundEngine\CallbackCommand.h" />
+    <ClInclude Include="SoundEngine\CallbackManager.h" />
+    <ClInclude Include="SoundEngine\CallbackSoundEndedCommand.h" />
+    <ClInclude Include="SoundEngine\Channel.h" />
+    <ClInclude Include="SoundEngine\CircularData.h" />
+    <ClInclude Include="SoundEngine\CircularIndex.h" />
+    <ClInclude Include="SoundEngine\Command.h" />
+    <ClInclude Include="SoundEngine\FileThreadCommand.h" />
+    <ClInclude Include="SoundEngine\flimFilter.h" />
+    <ClInclude Include="SoundEngine\FlimListener.h" />
+    <ClInclude Include="SoundEngine\flimReverb.h" />
+    <ClInclude Include="SoundEngine\flimSound.h" />
+    <ClInclude Include="SoundEngine\IndividualSoundEnded.h" />
+    <ClInclude Include="SoundEngine\MarkForPlayCommand.h" />
+    <ClInclude Include="SoundEngine\MarkForStopCommand.h" />
+    <ClInclude Include="SoundEngine\PlaylistLoopCommand.h" />
+    <ClInclude Include="SoundEngine\PlaylistPanCommand.h" />
+    <ClInclude Include="SoundEngine\PlaylistPauseCommand.h" />
+    <ClInclude Include="SoundEngine\PlaylistPitchCommand.h" />
+    <ClInclude Include="SoundEngine\PlaylistPlayCommand.h" />
+    <ClInclude Include="SoundEngine\PlaylistPrintDuration.h" />
+    <ClInclude Include="SoundEngine\PlaylistStopCommand.h" />
+    <ClInclude Include="SoundEngine\PlaylistVolumeCommand.h" />
+    <ClInclude Include="SoundEngine\PlayType.h" />
+    <ClInclude Include="SoundEngine\PrintPriorityCommand.h" />
+    <ClInclude Include="SoundEngine\PrintSoundCommand.h" />
+    <ClInclude Include="SoundEngine\PriorityManager.h" />
+    <ClInclude Include="SoundEngine\snd_err.h" />
+    <ClInclude Include="SoundEngine\InternalSoundEnded.h" />
+    <ClInclude Include="SoundEngine\ShipGrowCommand.h" />
+    <ClInclude Include="SoundEngine\SndExecutioner.h" />
+    <ClInclude Include="SoundEngine\Handle.h" />
+    <ClInclude Include="SoundEngine\HandleManager.h" />
+    <ClInclude Include="SoundEngine\HashThis.h" />
+    <ClInclude Include="SoundEngine\List.h" />
+    <ClInclude Include="SoundEngine\LoopCommand.h" />
+    <ClInclude Include="SoundEngine\Manager.h" />
+    <ClInclude Include="SoundEngine\sndmathtools.h" />
+    <ClInclude Include="SoundEngine\md5.h" />
+    <ClInclude Include="SoundEngine\Node.h" />
+    <ClInclude Include="SoundEngine\PanCmd.h" />
+    <ClInclude Include="SoundEngine\PitchCommand.h" />
+    <ClInclude Include="SoundEngine\PlayCmd.h" />
+    <ClInclude Include="SoundEngine\Playlist.h" />
+    <ClInclude Include="SoundEngine\PlaylistAddCallbackCommand.h" />
+    <ClInclude Include="SoundEngine\PlaylistAddCommand.h" />
+    <ClInclude Include="SoundEngine\PlaylistAddSoundCommand.h" />
+    <ClInclude Include="SoundEngine\PlaylistFactory.h" />
+    <ClInclude Include="SoundEngine\PlaylistInitCommand.h" />
+    <ClInclude Include="SoundEngine\PlaylistManager.h" />
+    <ClInclude Include="SoundEngine\Sound.h" />
+    <ClInclude Include="SoundEngine\SoundCall.h" />
+    <ClInclude Include="SoundEngine\SoundCallPrintDurationCommand.h" />
+    <ClInclude Include="SoundEngine\SoundCallRegistry.h" />
+    <ClInclude Include="SoundEngine\SoundEngine.h" />
+    <ClInclude Include="SoundEngine\SoundList.h" />
+    <ClInclude Include="SoundEngine\SoundManager.h" />
+    <ClInclude Include="SoundEngine\SoundManager3D.h" />
+    <ClInclude Include="SoundEngine\SoundNode.h" />
+    <ClInclude Include="SoundEngine\StartPlaylistCommand.h" />
+    <ClInclude Include="SoundEngine\TerminateSoundEngineCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadActivateFilterCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadCallbackSoundEndedCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadCallbackSoundLoadedCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadCallbackSoundStartedCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadCommands.h" />
+    <ClInclude Include="SoundEngine\ThreadCommunicationCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadCreatePlaylistCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadDeactivateFilterCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadHelper.h" />
+    <ClInclude Include="SoundEngine\ThreadInitializeScriptCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadInitializeSoundCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadLoadCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadLoadWaveCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadLoopCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadPanCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadPauseCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadPitchCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadPlayCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadSetCutoffCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadSetEmitterOrientationCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadSetEmitterPositionCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadSetListenerOrientationCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadSetListenerPositionCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadSetReverbDensityCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadSetReverbLevelCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadSetReverbPredelayCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadSetReverbPresetCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadSetReverbSizeCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadSetReverbTimeCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadStopCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadTerminateFileThreadCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadTerminateSoundEngineCommand.h" />
+    <ClInclude Include="SoundEngine\ThreadVolumeCommand.h" />
+    <ClInclude Include="SoundEngine\Timeline.h" />
+    <ClInclude Include="SoundEngine\Trace\Trace.h" />
+    <ClInclude Include="SoundEngine\TransitionOnEnd.h" />
+    <ClInclude Include="SoundEngine\VoiceFactory.h" />
+    <ClInclude Include="SoundEngine\VoiceManager.h" />
+    <ClInclude Include="SoundEngine\VolumeCommand.h" />
+    <ClInclude Include="SoundEngine\WindowsWrapper.h" />
+    <ClInclude Include="SpacePlane.h" />
+    <ClInclude Include="Tank.h" />
+    <ClInclude Include="TankScene.h" />
+    <ClInclude Include="TankWorld.h" />
+    <ClInclude Include="Tester.h" />
+    <ClInclude Include="UserCallbacks.h" />
+    <ClInclude Include="vcsversion.h" />
+    <ClInclude Include="WorldPlane.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\AzulCore\lib\AzulCore_Debug.lib" />
+    <Library Include="..\dist\File\lib\File_Debug.lib" />
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib" />
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib" />
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib" />
+    <Library Include="..\dist\Time\lib\TimeDebug.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3DAudio.cd" />
+    <None Include="Ables.cd" />
+    <None Include="Alarms.cd" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="Collision.cd" />
+    <None Include="CollisionSystem_spring.cd" />
+    <None Include="CollisionVolumes.cd" />
+    <None Include="Effects.cd" />
+    <None Include="Flim\CollisionSystem.cd" />
+    <None Include="KeyboardInput.cd" />
+    <None Include="SoundEngine\BufferManager.cd" />
+    <None Include="SoundEngine\AudioSystem.cd" />
+    <None Include="SoundEngine\version.bat" />
+    <None Include="SoundEngine\VoiceManager.cd" />
+    <None Include="Sprites.cd" />
+    <None Include="Terrain.cd" />
+    <None Include="UpdateAndDraw.cd" />
+    <None Include="Visualizer.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
